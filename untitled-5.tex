@@ -14,7 +14,7 @@
 
 %%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
-\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{a4paper,total = {170mm , 257 mm},left = 40mm,top=35mm,right = 30mm,bottom=15mm,} % or letterpaper (US) or a5paper or....
 % \geometry{margin=2in} % for example, change the margins to 2 inches all round
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
@@ -36,9 +36,12 @@
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
 \pagestyle{fancy} % options: empty , plain , fancy
-\renewcommand{\headrulewidth}{0pt} % customise the layout...
-\lhead{}\chead{}\rhead{}
-\lfoot{}\cfoot{\thepage}\rfoot{}
+\renewcommand{\headrulewidth}{1pt} % customise the layout...
+\lhead{}\chead{}\rhead{Project Report | DRDO}
+\lfoot{}\cfoot{}\rfoot{\thepage}
+\topmargin = -23pt
+\headsep = 10pt
+\renewcommand{\footrulewidth}{1pt}
 
 %%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
@@ -49,9 +52,10 @@
 \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 \usepackage{amsmath}
+\usepackage{changepage}
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
-\geometry{margin=1.5in}
+
 %%% END Article customizations
 
 %%% The "real" document content comes below...
@@ -63,7 +67,7 @@
 
 \begin{document}
 \tableofcontents
-
+\listoffigures
 \pagebreak
 \title{CHAPTER 1}
 \maketitle
@@ -178,7 +182,7 @@ Where R is range of the target from the Radar.
 The following Table 1 shows radar frequency bands:
 
 \begin{figure}[H]
-  \includegraphics[width=\linewidth]{band.jpg}
+ \centerline{\includegraphics[width=0.75\linewidth]{band.jpg}}
   \caption{Radar Frequency Bands}
   \label{fig:figure 3}
 \end{figure}
@@ -414,4 +418,116 @@ The following figure 6.3 shows the Product tree of MFR:
 \\     The Rectifier receives 415V AC (L-L), 50 Hz, 3Ø power from Diesel Generator (DG) as input and converts it to 320V DC and supplies it to different subsystems.
 
 \end{enumerate}
+\pagebreak
+
+\title{CHAPTER 4}
+\maketitle
+\section{ABOUT DATABASES}
+\subsection{INTRODUCTION}
+A database management system (DBMS) is a software package with computer programs that control the creation, maintenance, and use of a database. It allows organizations to conveniently develop databases for various applications by database administrators (DBAs) and other specialists. A database is an integrated collection of data records, files, and other objects. A DBMS allows different user application programs to concurrently access the same database. DBMSs may use a variety of database models, such as the relational model or object model, to conveniently describe and support applications. It typically supports query languages which are in fact high-level programming languages, dedicated database languages that considerably simplify writing database Application programs.  A DBMS provides facilities for controlling data access, enforcing data integrity, managing concurrency control, and recovering the database after failures and restoring it from backup files, as well as maintaining database security.
+\\
+\\ \textbf{Definition:}
+\\A database management system (DBMS) is the software that allows a computer to perform database functions of storing, retrieving, adding, deleting, and modifying data. Relational database management system (RDBMS) implements the relational model of tables and relationships.
+\\
+\\ \textbf{Examples:}
+\\Microsoft access, MySQL, Microsoft SQL server, oracle and File maker pro are all examples of database management systems.
+\\
+\\ \textbf{Types of database management system}
+  \\Different types of DBMS are as follow:
+ \begin{itemize}
+\item	Hierarchical DBMS  
+\item	Network DBMS
+\item	Relational DBMS
+\item	Flat file DBMS
+\item	 Object Oriented DBMS        
+\end{itemize}
+
+\begin{enumerate}
+\item \textbf{Hierarchical DBMS:}                                
+ \begin{figure}[H]
+ 
+  \centerline{\includegraphics[width=0.7\linewidth]{hierarchical.jpg}}
+  \caption{Hierarchical DBMS}
+  \label{fig:figure 10}
+\end{figure}
+One of the earliest database management systems was based on the Hierarchical model. Here data can be organized in the form of free structure or level-by-level manner with one limitation that is "every sub node or child node should have only one parent node".
+
+\item \textbf{Network DBMS: }
+                       \\ Network databases are similar to hierarchical databases by also having a hierarchical structure. There are a few key differences, however. Instead of looking like an upside-down tree, a network database looks more like a cobweb or interconnected network of records. In network databases, children are called members and parents are called owners. The most important difference is that each child or member can have more than one parent (or owner). 
+Like hierarchical databases, network databases are principally used on mainframe computers. Since more connections can be made between different types of data, network databases are considered more flexible. However, two limitations must be considered when using this kind of database.
+\newpage
+\item \textbf{Relational DBMS:}
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=0.65\linewidth]{relational.jpg}}
+  \caption{Relational DBMS:}
+  \label{fig:figure 11}
+\end{figure}
+RDBMS are most important database system used in the software industry today. It was exclusively used to establish the relation the relationship between two-database objects. One of the database objects is one table.
+\\The Relationship may be
+\begin{itemize}
+\item One - One 
+\item One - Many
+\item Many - One
+\item Many – Many
+\end{itemize}
+\item \textbf{Flat files DBMS:}
+ \\In flat file database management system the user specifies the data attributes for one table at a time, storing data independently from application.
+\item \textbf{Object Oriented DBMS:}
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=0.65\linewidth]{object.png}}
+  \caption{Object Oriented DBMS:}
+  \label{fig:figure 12}
+\end{figure}
+Object Oriented DBMS Database that stores data elements as objects. Uses of object-oriented concepts. The term object oriented is abbreviated by OO or O-O
+An object database (also object-oriented database management system) is a database management system 
+In which information is represented in the form of objects as used in object-oriented programming. Object databases are different from relational databases and belongs together to the broader database management system.
+Object databases have been considered since the early 1980s and 1990s; they may be slower in simple mass commercial data transaction. Object databases main usage is in object oriented areas. 
+ \end{enumerate}      
+                           
+\subsection{ADVANTAGES OF DBMS:} 
+There are many advantage of database management system; some of them are as follows.
+ \begin{itemize}
+\item[]\textbf{Warehouse of Information:}
+The database management systems are warehouses of information, where large amount of data can be stored. The common examples in commercial applications are inventory data, personnel data . The best examples for the same would be the address book of a Cell phone, digital diaries, etc. 
+\item[]\textbf{Defining Attributes:} 
+The unique data field in a table is assigned a primary key. The primary key helps in the identification of data. It also checks for duplicates within the same table, thereby reducing data redundancy. There are tables, which have a secondary key in addition to the primary key. The secondary key refers to the primary key of another table, thus establishing a relationship between the two tables. 
+\item[]\textbf{Systematic Storage:} 
+The data is stored in the form of tables. The tables consist of rows and columns.
+\item[]\textbf{Changes to Schema:} 
+The table schema can be changed and it is not platform dependent. Therefore, the tables in the system can be edited to add new columns and rows without hampering the applications that depend on that particular database.
+\item[]\textbf{No Language Dependence:} 
+The database management systems are not language dependent. Therefore, they can be used with various languages and on various platforms. 
+\item[]\textbf{Table joins:} 
+The data in two or more tables can be integrated into a single table. This enables to reduce the size of the database and helps in easy retrieval of data.
+\item[]\textbf{Multiple Simultaneous Usages:} 
+            The database can be used simultaneously by a number of users. 
+\item[]\textbf{Data Security:}
+ Database management systems help to keep the data secured.
+ \item[]\textbf{Data Consistency:} 
+            Data consistency ensures a consistent view of data to every user. It includes the accuracy,validity and integrity of related data. 
+  \end{itemize}          
+ \subsection{DISADVANTAGES OF  DBMS}
+Some disadvantages of DBMS are as follow:
+\begin{itemize}
+\item A complex conceptual design process;
+\item	The need to hire database-related employees;
+\item	High DBMS acquisition costs;
+\item	A more complex programmer environment;
+\item	Potentially catastrophic program failures;
+\item	A longer running time for individual applications; 
+\item	Database systems are complex, difficult, and time-consuming to design
+\item	Substantial hardware and software start-up costs
+\item	Damage to database affects virtually all applications programs
+\item	Initial training required for all programmers and users.
+\end{itemize}
+\textbf{Example of database management system}
+\begin{enumerate}
+\item	SQL
+\item	ORACLE
+\item	FOXPRO
+\item	MS ACCESS
+\item	MY SQL
+\end{enumerate}
+
+
 \end{document}

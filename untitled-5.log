@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  19 AUG 2017 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  19 AUG 2017 14:25
 entering extended mode
 **./untitled-5.tex
 (untitled-5.tex
@@ -370,6 +370,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks17
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (483.69684pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (731.23582pt) is ignored.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -611,6 +619,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\changepage\changepage.sty"
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count116
+\cp@tempcnt=\count117
+)
 
 LaTeX Warning: Unused global option(s):
     [14pt].
@@ -618,18 +631,18 @@ LaTeX Warning: Unused global option(s):
 (untitled-5.aux)
 \openout1 = `untitled-5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -639,17 +652,17 @@ LaTeX Font Info:    ... okay on input line 64.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(108.405pt, 380.69788pt, 108.405pt)
-* v-part:(T,H,B)=(108.405pt, 628.23685pt, 108.405pt)
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 702.78308pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=380.69788pt
-* \textheight=628.23685pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-0.86499pt
+* \textwidth=398.3386pt
+* \textheight=702.78308pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-23.0pt
 * \headheight=12.0pt
-* \headsep=25.0pt
+* \headsep=10.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=65.0pt
@@ -667,16 +680,16 @@ LaTeX Font Info:    ... okay on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
+\scratchcounter=\count118
 \scratchdimen=\dimen145
 \scratchbox=\box30
-\nofMPsegments=\count117
-\nofMParguments=\count118
+\nofMPsegments=\count119
+\nofMParguments=\count120
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count119
+\MPscratchCnt=\count121
 \MPscratchDim=\dimen146
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -728,33 +741,32 @@ Package caption Info: End \AtBeginDocument code.
 \tf@toc=\write3
 \openout3 = `untitled-5.toc'.
 
- [1
+ (untitled-5.lof)
+\tf@lof=\write4
+\openout4 = `untitled-5.lof'.
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
 
 LaTeX Warning: No \author given.
 
 [2] <steps.png, id=12, 476.5002pt x 675.9654pt>
 File: steps.png Graphic file (type png)
  <use steps.png>
-Package pdftex.def Info: steps.png used on input line 84.
-(pdftex.def)             Requested size: 380.69788pt x 540.0923pt.
+Package pdftex.def Info: steps.png used on input line 88.
+(pdftex.def)             Requested size: 398.3386pt x 565.115pt.
  [3 <./steps.png>] [4]
 
 LaTeX Warning: No \author given.
 
-
-Overfull \hbox (17.4325pt too wide) in paragraph at lines 99--100
-\OT1/cmr/bx/n/10 ELECTRONICS AND RADAR DE-VEL-OP-MENT ES-TAB-LISH-MENT (LRDE)
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
  [5] [6]
 
 LaTeX Warning: No \author given.
@@ -763,41 +775,41 @@ LaTeX Warning: No \author given.
 File: RadarBlockDiagram.png Graphic file (type png)
 
 <use RadarBlockDiagram.png>
-Package pdftex.def Info: RadarBlockDiagram.png used on input line 164.
-(pdftex.def)             Requested size: 380.69788pt x 222.08394pt.
+Package pdftex.def Info: RadarBlockDiagram.png used on input line 168.
+(pdftex.def)             Requested size: 398.3386pt x 232.3753pt.
  [7] <band.jpg, id=34, 597.23125pt x 464.73625pt>
 File: band.jpg Graphic file (type jpg)
 
 <use band.jpg>
-Package pdftex.def Info: band.jpg used on input line 181.
-(pdftex.def)             Requested size: 380.69788pt x 296.24593pt.
+Package pdftex.def Info: band.jpg used on input line 185.
+(pdftex.def)             Requested size: 298.75394pt x 232.47392pt.
  [8 <./RadarBlockDiagram.png>]
 <Horizonradar.png, id=39, 411.03563pt x 272.51813pt>
 File: Horizonradar.png Graphic file (type png)
  <use Horizonradar.png>
-Package pdftex.def Info: Horizonradar.png used on input line 192.
-(pdftex.def)             Requested size: 380.69788pt x 252.40382pt.
+Package pdftex.def Info: Horizonradar.png used on input line 196.
+(pdftex.def)             Requested size: 398.3386pt x 264.10107pt.
 
 [9 <./band.jpg>] <fylingdales.png, id=43, 421.575pt x 302.63063pt>
 File: fylingdales.png Graphic file (type png)
 
 <use fylingdales.png>
-Package pdftex.def Info: fylingdales.png used on input line 200.
-(pdftex.def)             Requested size: 380.69788pt x 273.29321pt.
+Package pdftex.def Info: fylingdales.png used on input line 204.
+(pdftex.def)             Requested size: 398.3386pt x 285.95512pt.
  [10 <./Horizonradar.png>]
 <Navy.png, id=48, 472.76625pt x 244.66406pt>
 File: Navy.png Graphic file (type png)
  <use Navy.png>
-Package pdftex.def Info: Navy.png used on input line 207.
-(pdftex.def)             Requested size: 380.69788pt x 197.02321pt.
+Package pdftex.def Info: Navy.png used on input line 211.
+(pdftex.def)             Requested size: 398.3386pt x 206.15105pt.
 
 <airforce.png, id=49, 469.00218pt x 268.00125pt>
 File: airforce.png Graphic file (type png)
  <use airforce.png>
-Package pdftex.def Info: airforce.png used on input line 215.
-(pdftex.def)             Requested size: 380.69788pt x 217.5419pt.
+Package pdftex.def Info: airforce.png used on input line 219.
+(pdftex.def)             Requested size: 398.3386pt x 227.6222pt.
  [11 <./fylingdales.png> <./Navy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 225--230
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
@@ -805,40 +817,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--230
 File: radartypes.png Graphic file (type png)
 
 <use radartypes.png>
-Package pdftex.def Info: radartypes.png used on input line 288.
-(pdftex.def)             Requested size: 380.69788pt x 202.8317pt.
+Package pdftex.def Info: radartypes.png used on input line 292.
+(pdftex.def)             Requested size: 398.3386pt x 212.23009pt.
  [14 <./radartypes.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 352--355
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
 
  []
 
 <MFR.png, id=75, 526.21594pt x 394.47375pt>
 File: MFR.png Graphic file (type png)
  <use MFR.png>
-Package pdftex.def Info: MFR.png used on input line 376.
-(pdftex.def)             Requested size: 380.69788pt x 285.39926pt.
- [16] [17 <./MFR.png>] [18] (untitled-5.aux) ) 
+Package pdftex.def Info: MFR.png used on input line 380.
+(pdftex.def)             Requested size: 398.3386pt x 298.6234pt.
+ [16 <./MFR.png>]
+[17]
+
+LaTeX Warning: No \author given.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+<hierarchical.jpg, id=83, 136.3494pt x 118.5228pt>
+File: hierarchical.jpg Graphic file (type jpg)
+ <use hierarchical.jpg>
+Package pdftex.def Info: hierarchical.jpg used on input line 449.
+(pdftex.def)             Requested size: 278.83578pt x 242.38911pt.
+
+[18] [19 <./hierarchical.jpg>]
+<relational.jpg, id=91, 319.94531pt x 208.52907pt>
+File: relational.jpg Graphic file (type jpg)
+ <use relational.jpg>
+Package pdftex.def Info: relational.jpg used on input line 461.
+(pdftex.def)             Requested size: 258.91765pt x 168.75488pt.
+
+<object.png, id=92, 321.2pt x 237.88875pt>
+File: object.png Graphic file (type png)
+ <use object.png>
+Package pdftex.def Info: object.png used on input line 477.
+(pdftex.def)             Requested size: 258.91765pt x 191.76683pt.
+ [20 <./relational.jpg> <./object.png>] [21] [22] (untitled-5.aux) ) 
 Here is how much of TeX's memory you used:
- 5090 strings out of 493328
- 73175 string characters out of 3139122
- 152218 words of memory out of 3000000
- 8524 multiletter control sequences out of 15000+200000
+ 5154 strings out of 493328
+ 74188 string characters out of 3139122
+ 154026 words of memory out of 3000000
+ 8578 multiletter control sequences out of 15000+200000
  10824 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,1065b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on untitled-5.pdf (18 pages, 1119161 bytes).
+ 44i,11n,43p,1065b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on untitled-5.pdf (22 pages, 1230996 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
