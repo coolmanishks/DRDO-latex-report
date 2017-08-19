@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  18 AUG 2017 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  19 AUG 2017 09:15
 entering extended mode
 **./untitled-5.tex
 (untitled-5.tex
@@ -553,25 +553,84 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabindent=\skip101
 \cftsubtabnumwidth=\skip102
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip103
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen136
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip10
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks25
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks26
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks27
+\multlinegap=\skip104
+\multlinetaggap=\skip105
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file untitled-5.aux.
+(untitled-5.aux)
 \openout1 = `untitled-5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -608,17 +667,17 @@ LaTeX Font Info:    ... okay on input line 62.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen136
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen137
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count116
+\scratchdimen=\dimen145
+\scratchbox=\box30
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen146
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -665,100 +724,121 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-No file untitled-5.toc.
+(untitled-5.toc)
 \tf@toc=\write3
 \openout3 = `untitled-5.toc'.
 
-[1
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 67.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 67.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
-
 
 LaTeX Warning: No \author given.
 
 [2] <steps.png, id=12, 476.5002pt x 675.9654pt>
 File: steps.png Graphic file (type png)
  <use steps.png>
-Package pdftex.def Info: steps.png used on input line 82.
+Package pdftex.def Info: steps.png used on input line 84.
 (pdftex.def)             Requested size: 380.69788pt x 540.0923pt.
  [3 <./steps.png>] [4]
 
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (17.4325pt too wide) in paragraph at lines 97--98
+Overfull \hbox (17.4325pt too wide) in paragraph at lines 99--100
 \OT1/cmr/bx/n/10 ELECTRONICS AND RADAR DE-VEL-OP-MENT ES-TAB-LISH-MENT (LRDE)
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
  [5] [6]
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 156.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 156.
 <RadarBlockDiagram.png, id=29, 442.65375pt x 258.21469pt>
 File: RadarBlockDiagram.png Graphic file (type png)
 
 <use RadarBlockDiagram.png>
-Package pdftex.def Info: RadarBlockDiagram.png used on input line 162.
+Package pdftex.def Info: RadarBlockDiagram.png used on input line 164.
 (pdftex.def)             Requested size: 380.69788pt x 222.08394pt.
- [7]
-<Horizonradar.png, id=34, 411.03563pt x 272.51813pt>
+ [7] <band.jpg, id=34, 597.23125pt x 464.73625pt>
+File: band.jpg Graphic file (type jpg)
+
+<use band.jpg>
+Package pdftex.def Info: band.jpg used on input line 181.
+(pdftex.def)             Requested size: 380.69788pt x 296.24593pt.
+ [8 <./RadarBlockDiagram.png>]
+<Horizonradar.png, id=39, 411.03563pt x 272.51813pt>
 File: Horizonradar.png Graphic file (type png)
  <use Horizonradar.png>
-Package pdftex.def Info: Horizonradar.png used on input line 185.
+Package pdftex.def Info: Horizonradar.png used on input line 192.
 (pdftex.def)             Requested size: 380.69788pt x 252.40382pt.
 
-[8 <./RadarBlockDiagram.png>]
-<fylingdales.png, id=39, 421.575pt x 302.63063pt>
+[9 <./band.jpg>] <fylingdales.png, id=43, 421.575pt x 302.63063pt>
 File: fylingdales.png Graphic file (type png)
- <use fylingdales.png>
-Package pdftex.def Info: fylingdales.png used on input line 193.
+
+<use fylingdales.png>
+Package pdftex.def Info: fylingdales.png used on input line 200.
 (pdftex.def)             Requested size: 380.69788pt x 273.29321pt.
-
-[9 <./Horizonradar.png>] <Navy.png, id=44, 472.76625pt x 244.66406pt>
+ [10 <./Horizonradar.png>]
+<Navy.png, id=48, 472.76625pt x 244.66406pt>
 File: Navy.png Graphic file (type png)
-
-<use Navy.png>
-Package pdftex.def Info: Navy.png used on input line 200.
+ <use Navy.png>
+Package pdftex.def Info: Navy.png used on input line 207.
 (pdftex.def)             Requested size: 380.69788pt x 197.02321pt.
- [10 <./fylingdales.png> <./Navy.png>] (untitled-5.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+<airforce.png, id=49, 469.00218pt x 268.00125pt>
+File: airforce.png Graphic file (type png)
+ <use airforce.png>
+Package pdftex.def Info: airforce.png used on input line 215.
+(pdftex.def)             Requested size: 380.69788pt x 217.5419pt.
+ [11 <./fylingdales.png> <./Navy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 225--230
 
- ) 
+ []
+
+[12 <./airforce.png>] [13] <radartypes.png, id=66, 447.92343pt x 238.64156pt>
+File: radartypes.png Graphic file (type png)
+
+<use radartypes.png>
+Package pdftex.def Info: radartypes.png used on input line 288.
+(pdftex.def)             Requested size: 380.69788pt x 202.8317pt.
+ [14 <./radartypes.png>] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
+
+ []
+
+<MFR.png, id=75, 526.21594pt x 394.47375pt>
+File: MFR.png Graphic file (type png)
+ <use MFR.png>
+Package pdftex.def Info: MFR.png used on input line 376.
+(pdftex.def)             Requested size: 380.69788pt x 285.39926pt.
+ [16] [17 <./MFR.png>] [18] (untitled-5.aux) ) 
 Here is how much of TeX's memory you used:
- 4452 strings out of 493328
- 65875 string characters out of 3139122
- 139672 words of memory out of 3000000
- 7914 multiletter control sequences out of 15000+200000
- 9097 words of font info for 32 fonts, out of 3000000 for 9000
+ 5090 strings out of 493328
+ 73175 string characters out of 3139122
+ 152218 words of memory out of 3000000
+ 8524 multiletter control sequences out of 15000+200000
+ 10824 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,1065b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb>
-Output written on untitled-5.pdf (10 pages, 623353 bytes).
+ 44i,11n,43p,1065b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on untitled-5.pdf (18 pages, 1119161 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

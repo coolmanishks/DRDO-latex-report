@@ -12,3 +12,12 @@
 \contentsline {subsection}{\numberline {3.1}RADAR FUNDAMENTALS}{7}
 \contentsline {subsection}{\numberline {3.2}RADAR BLOCK DIAGRAM}{7}
 \contentsline {subsection}{\numberline {3.3}RADAR FREQUENCY BANDS}{8}
+\contentsline {subsection}{\numberline {3.4}RANGE PERFORMANCE OF RADARS}{12}
+\contentsline {subsection}{\numberline {3.5}HISTORY OF RADAR}{13}
+\contentsline {subsection}{\numberline {3.6} TYPES OF RADAR}{14}
+\contentsline {subsubsection}{\numberline {3.6.1}Frequency based radar types}{15}
+\contentsline {subsubsection}{\numberline {3.6.2}Waveform Based radar classification}{15}
+\contentsline {subsubsection}{\numberline {3.6.3}PRF Based radar classification}{15}
+\contentsline {subsubsection}{\numberline {3.6.4}Application based radar classification}{15}
+\contentsline {subsection}{\numberline {3.7}APPLICATIONS OF RADAR}{16}
+\contentsline {subsection}{\numberline {3.8}RADAR SUBSYSTEMS}{16}

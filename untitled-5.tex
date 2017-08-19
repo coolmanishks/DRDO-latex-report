@@ -24,6 +24,7 @@
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{float}
 \usepackage{titling}
+\setlength{\parindent}{4em}
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
@@ -47,6 +48,7 @@
 %%% ToC(table of contents) APPEARANCE
 \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\usepackage{amsmath}
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 \geometry{margin=1.5in}
@@ -175,6 +177,11 @@ Where R is range of the target from the Radar.
 \subsection{RADAR FREQUENCY BANDS}
 The following Table 1 shows radar frequency bands:
 
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{band.jpg}
+  \caption{Radar Frequency Bands}
+  \label{fig:figure 3}
+\end{figure}
  
 
 High Frequency (HF) radars utilize the electromagnetic waves’ reflection off the ionosphere to detect targets beyond the horizon. Some examples include the United States over the Horizon Backscatter (U.S. OTH/B) radar which operates in the frequency range of, the U.S. Navy Reloadable Over The Horizon Radar (ROTHR), see Fig. 2.3-2, and the Russian Woodpecker radar. Very High Frequency (VHF) and Ultra High Frequency (UHF) bands are used for very long range Early Warning Radars (EWR). Some examples include the Ballistic Missile Early Warning System (BMEWS) search and track mono-pulse radar which operates at (Fig. 2.3-3), the Perimeter and Acquisition Radar (PAR) which is a very long range multifunction phased
@@ -201,4 +208,210 @@ Radars in the L-band are primarily ground based and ship based systems that are 
   \caption{U. S. Navy AEGIS}
   \label{fig:figure 6}
 \end{figure}
+
+
+
+ \begin{figure}[H]
+  \includegraphics[width=\linewidth]{airforce.png}
+  \caption{ U. S. Air Force AWACS}
+  \label{fig:figure 7}
+\end{figure}
+
+The X-band is used for radar systems where the size of the antenna constitutes a physical limitation; this includes most military multimode airborne radars. Radar systems that require fine target detection capabilities and yet cannot tolerate the atmospheric attenuation of higher frequency bands may also be X-band. The higher frequency bands (Ku, K, and Ka) suffer severe weather and atmospheric attenuation. Therefore, radars utilizing these frequency bands are limited to short range applications, such as the police traffic radars, short range terrain avoidance, and terrain following radars. Milli-Meter Wave (MMW) radars are mainly limited to very short range Radio Frequency (RF) seekers and experimental radar systems.
+\subsection{RANGE PERFORMANCE OF RADARS}
+The maximum range R\textsubscript{max} equation for radars are:
+\[R_{max} = \dfrac{P_tGA_e\sigma}{4\pi^{2}S_{min}} \]
+
+where, \\ \indent P\textsubscript{t} = Transmitted power, in watts,
+              \\ \indent G = Antenna gain,
+              \\ \indent A\textsubscript{e} = Antenna effective aperture, in m\textsuperscript{2}
+                         \\ \indent $\sigma$ =  Radar cross-section of the target, in m\textsuperscript{2}
+              \\ \indent S\textsubscript{min} =  Minimum detectable signal, in watts\\
+
+
+All the above parameters, except $\sigma$  , are to some extent under the control of the radar designer.
+\\ In practice, the simple radar equation does not predict the range performance of actual radar equipment’s to a satisfactory degree of accuracy.
+ In many cases the actual range might be half of that predicted by the above equation. Some of the major reasons for this are the following:
+\begin{itemize} 
+\item  Failure of the equation to explicitly include various losses that can occur throughout the system.
+\item Loss of performance usually experienced when electronic equipment are operated in the field, as against when they are operated under laboratory conditions.
+\item Statistical and unpredictable nature of the various parameters in the radar equation.
+\end{itemize}
+Both S\textsubscript{min} and $\sigma$ are statistical in nature and must be expressed as such in statistical terms. other statistical factors which affect radar performance are meteorological conditions along the propagation path and performance of the radar operator, if one is employed.
+In view of the above, specification of radar range is usually given as the probability that the radar will detect a certain type of target at a particular range.
+
+\subsection{HISTORY OF RADAR}
+ Neither a single nation nor a single person can say that the discovery and development of radar technology was his (or its) own invention. One must see the knowledge about “Radar” than an accumulation of many developments and improvements, in which any scientists from several nations took part in parallel. In the past, there are nevertheless some milestones, with the discovery of important basic knowledge and important inventions:
+ 
+\begin{itemize}
+\item \textbf {1865  :} The Scottish physicist James Clerk Maxwell presents his “Theory of the Electromagnetic Field” (description of the electromagnetic waves and their propagation) He demonstrated that electric and magnetic fields travel through space in the form of waves, and at the constant speed of light.
+
+\item \textbf {1886 : }The German physicist Heinrich Rudolf Hertz  discovered electromagnetic waves, thus demonstrating the Maxwell theory.
+
+\item \textbf { 1897 :  }The Italian inventor Guglielmo Marconi achieved the first long distance transmission of electromagnetic waves. In his first experiments he used a wire to a wooden pole. In Italian a tent pole is known as lantenna centrale, and the pole with a wire alongside it used as an aerial was simply called lantenna. Today Marconi is known as pioneer of radio communication.
+
+\item \textbf {1900 :  }Nicola Tesla suggested that the reflection of electromagnetic waves could be used for detecting of moving metallic objects.
+
+\item \textbf {1904 :  }The German engineer Christian Hulsmeyer invents the "telemobiloscope" for a traffic monitoring on the water in poor visibility. This is the first practical radar test. Hülsmeyer apply his invention for a patent in Germany, France and the United Kingdom.
+
+\item \textbf {1921 :  }The invention of the Magnetron as an efficient transmitting tube by the US-American physicist Albert Wallace Hull.
+
+\item \textbf {1922 : }The American electrical engineers Albert H. Taylor and Leo C. Young of the Naval Research Laboratory (USA) locate a wooden ship for the first time.
+
+\item \textbf {1930 :  }Lawrence A. Hyland (also of the Naval Research Laboratory), locates an aircraft for the first time.
+
+\item \textbf {1931 : }In Britain the first known proposal for a radar system came from William A. S. Butement and P. E. Pollard in January 1931. They equipped a ship with radar. As antennae were used parabolic dishes with horn radiator. Although their equipment produced short-range results the work was abandoned for lack of government support.
+
+\item \textbf {1933 : }On the basis of the in 1931 from himself invented sonar, Rudolph Kühnhold presented a so called “Funkmessgerat”. It worked on a wavelength of 48 cm and the transmitter had a power of about 40 Watts. From these tests, the Freya-radar was developed, which was produced in series beginning in 1938.
+
+\item \textbf {1935 : } Robert Watson-Watt (later: Sir Robert) suggested that radio waves might be used to detect aircraft at a distance and outlined a means of doing so. Intensive research began and by 1939 Britain possessed a defensive chain of highly secret Radio Direction Finding (RDF) stations.
+
+\item \textbf {1936 :} The development of the Klystron by the technicians George F. Metcalf and William C. Hahn, both General Electric. This will be an important component in radar units as an amplifier or an oscillator tube.
+
+\item \textbf {1939 : }Two engineers from the university in Birmingham, John Turton Randall und Henry Albert Howard Boot built a small but powerful radar using a Multicavity-Magnetron. The B–17 airplanes were fitted with this radar. Now they could find and thus combat the German submarines in the night and in fog.
+
+\item \textbf {1940 :} Different radar equipment’s are developed in the USA, Russia, Germany, France and Japan
+.
+Driven by general war events and the development of the Air Force to major branch of service, the radar technology undergoes a strong development boost during the World War II, and radar sets were used during the "Cold War" in large numbers along the inner German border.
+\end{itemize}
+
+\subsection{ TYPES OF RADAR}
+The types of radar are classified into four categories:
+\begin{enumerate}
+\item	Frequency 
+\item	Waveform 
+\item	PRF Pulse 
+\item	Application
+\end{enumerate}
+
+ \begin{figure}[H]
+  \includegraphics[width=\linewidth]{radartypes.png}
+  \caption{ Types of Radar}
+  \label{fig:figure 8}
+\end{figure}
+\subsubsection{Frequency based radar types}
+ Following are the radar types based on frequency bands:
+ \begin{enumerate}
+\item	HF Band Radars
+\item	VHF and UHF band radars
+\item	L-Band Radars
+\item	S-Band Radars 
+\item	C-Band Radars 
+\item	X-Band Radars 
+\item	Ku, K, Ka Band Radars 
+\item	Infrared, Visible light band radars
+\end{enumerate}
+
+\subsubsection{Waveform Based radar classification}
+ Following are the radar types based on waveform:
+\begin{enumerate}
+\item	Unmodulated CW radar
+\item	Modulated CW radar
+\item	Gated CW pulsed radar
+\item	Complex waveform pulsed radars
+\end{enumerate}
+
+\subsubsection{PRF Based radar classification}
+Following are the radar types based on PRF:
+\begin{enumerate}
+\item	LPRF (Low Pulse Repetition Frequency) Radar.
+\item	HPRF (High Pulse Repetition Frequency) Radar.
+\end{enumerate}
+
+\subsubsection{Application based radar classification}
+ Following are the radar types based on their applications of use: 
+\begin{enumerate}
+\item	Search radars (surface, air)
+\item	Warning radars such as weather forecast radars 
+\item	Spacecraft detection radars
+\item	Fire control radars
+\item	Ground mapping radars
+\item	SAR 
+\item	Air to Surface radars 
+\item	Sea surface radar 
+\item	Ground moving target search radars 
+\item	 Tracking radar
+\item	 Range radar
+\item	 velocity search radar
+\end{enumerate}
+
+\subsection{APPLICATIONS OF RADAR}
+Detection and search radar includes the “early warning radar”, used for long-range detection of objects, and the target acquisition(AT), used to locate surface-to-air missiles(SAM).These types are frequently used in the military and in coastal surveillance, as well as for detecting car speed during highway patrol.
+Missile guidance system are used to locate the target of a missile. This is often present in military aircraft.
+Radar for biological research includes tracking birds and insects to trace their migration patterns. Bird radar is also being used at NASA’s Kennedy space center in Florida to track the presence of birds, especially vultures, near launching pads. Trap and release programs have been implemented to prevent birds accidently impacting the shuttles after lift off.
+Air traffic control and navigation radar is used by airports to ensure the safety of planes. This type detects the proximity of an aircraft and identifies the identity and altitude of the plane. Radio beacons and distance measuring equipment(DME) also fall into category.
+Weather-sensing radar systems are mostly used to measure and locate precipitation. They can also measure wind direction and speed. 
+         Other applications of radar are:
+ \begin{enumerate}
+\item \textbf {On ground :} Detection, location, and tracking of aircraft and space targets.
+
+\item \textbf {In the air :} Detection of other aircraft, ships, or land vehicles; mapping of land; storm avoidance, terrain avoidance, and navigation.
+
+\item \textbf {On the sea :} Navigation aid and safety device to locate buoys, shore lines, other ships, and for observation of aircraft.
+
+\item \textbf {In space :} Guidance of spacecraft; remote sensing of land and sea.
+\newline
+\\ \textbf{Some specific applications are as follows:}
+
+\item \textbf {Air traffic control :} Controlling of air traffic in the vicinity of airports; and also for automated landing.
+
+\item \textbf {Aircraft navigation :} Weather avoidance to indicate regions of severe precipitation; terrain following/terrain avoidance (TF/TA); radio altimeter and doppler navigator are also radars.
+
+\item \textbf {Ship safety :} Collision avoidance; detection of navigation buoys.
+
+\item \textbf {Space :} Rendezvous and docking; landing on the moon and other planets; detection and tracking of satellites.
+
+\item \textbf {Remote sensing :} Sensing of geophysical object, or the ”environment” like weather, cloud cover, earth resources, water resources, agriculture, forests, geological formation, etc. This is usually done from aircraft or satellites.
+
+\item \textbf {Law enforcement :} To monitor speed of vehicles in traffic.
+
+\item \textbf {Military :} Surveillance and navigation; control and guidance of weapons. The largest use of radars occurs here.
+
+\end{enumerate}
+
+\subsection{RADAR SUBSYSTEMS}
+The following figure 6.3 shows the Product tree of MFR: 
+
+ \begin{figure}[H]
+  \includegraphics[width=\linewidth]{MFR.png}
+  \caption{Product tree of MFR}
+  \label{fig:figure 9}
+\end{figure}
+ \begin{enumerate}
+\item \textbf {C-Band Active Array Antenna Unit (AAAU)}
+\\The Active Array Antenna Unit (AAAU) consists of the radiating elements array, the Transmit/Receive Modules (TRMs), the power combiner network, the control signal distribution network and the beam steering network. This unit radiates energy in to the coverage volume of interest and collects the echo signals from the environment.
+\item \textbf {C-band Exciter-Receiver}  
+\\*	This unit consists of the exciter that generates the required RF and timing signals and the receiver which down converts the received echoes.
+
+\item \textbf {Signal and processor}
+\\ This unit processes the received signals for Detection, Clutter suppression and parameter extraction are performed by this unit.
+
+\item \textbf {Radar computer}
+\\	This subsystem is the brain of the radar and consists of a radar controller, radar data processor, embedded simulator and the interfaces to the external systems. 
+
+\item \textbf {Commander’s console}
+\\	The commander’s console consists of a workstation and a display screen and functions as the interface between the operator / commander and the radar.
+
+\item \textbf {Power system}
+\\	This consists of a diesel generator, rectifiers and power distribution unit.
+
+\item \textbf {Liquid cooling unit}
+\\	This subsystem is responsible for removing heat generated in other subsystems. It consists of a compressor, a pump to circulate a coolant and a heat exchanger.
+
+\item \textbf {Prime Mover with Trailer}
+\\	The entire radar system is mounted on this vehicle. The pallet of this vehicle will have a support structure mounted on it which supports all other subsystems.
+
+\item \textbf {Inertial Navigation Unit (INU)}
+\\	This subsystem provides the attitudes of the MFR platform.
+
+\item \textbf {IFF unit}
+\\	The IFF unit consists of 4 IFF antennas and the IFF interrogator.
+
+\item \textbf {Communication system}
+\\       The MFR consists of communication equipment, radio sets and voice communication handsets. MFR will interface with all data communication equipment via gigabit Ethernet. The communication equipment will interact with the external systems via wireless link, with wired link as backup.
+	
+\item \textbf {AC-DC Rectifier}
+\\     The Rectifier receives 415V AC (L-L), 50 Hz, 3Ø power from Diesel Generator (DG) as input and converts it to 320V DC and supplies it to different subsystems.
+
+\end{enumerate}
 \end{document}
