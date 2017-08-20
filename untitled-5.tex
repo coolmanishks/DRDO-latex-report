@@ -14,13 +14,13 @@
 
 %%% PAGE DIMENSIONS
 \usepackage{geometry} % to change the page dimensions
-\geometry{a4paper,total = {170mm , 257 mm},left = 40mm,top=35mm,right = 30mm,bottom=15mm,} % or letterpaper (US) or a5paper or....
+\geometry{a4paper,left = 40mm,top=35mm,right = 30mm,bottom=15mm,} % or letterpaper (US) or a5paper or....
 % \geometry{margin=2in} % for example, change the margins to 2 inches all round
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
 
 \usepackage{graphicx} % support the \includegraphics command and options
-\usepackage{mdframed}
+%\usepackage{mdframed}
 
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{float}
@@ -69,14 +69,13 @@
 
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
-
+\date{}
 \begin{document}
-\tableofcontents
-\pagebreak
+
+ \tableofcontents
 \listoffigures
-\pagebreak
-\title{CHAPTER 1}
-\maketitle
+\chapter{CHAPTER 1}
+
 \section{INTRODUCTION}
 
 \subsection{INTRODUCTION}
@@ -932,4 +931,22 @@ The graph between dwellcount vs Elevation shows that the radar was operated prio
   \begin{tcolorbox}[colframe=red]
     The overall analysis of dwellcount vs elevation graph shows that the radar is sending  dwells at increasing elevation and then decreasing it to a particular level and repeat th cycle by increasing the peak with each cycle of dwellcounts till 0.12 and then it sweeps back to -0.14 and starts the process again.
    \end{tcolorbox}
+   
+   \title{CHAPTER }
+\maketitle
+\section{CONCLUSION AND FUTURE WORK}
+\subsection{CONCLUSION}
+The Project successfully logged 10 GB QRSAM radar raw binary files in MS SQL database and the application is successfully capable of merging clutter free binary radar data.
+The process of logging was fast and it makes the analysis of data easy and reduced time for accessing data as the  relational database helps in easy and fast accessing of data.
+ Analysis of data using MATLAB was successfully performed and various inferences and conclusions from the graphs were made. This project demonstrate the benifits of using 
+ databse in pre-signal processing of raw radar data files of large size and having large clutter data. The project was successful in its objective and need future work on processing of data in the database.
+ \subsection{FUTURE WORK}
+ The radar data which is logged in relational database can be used in future for many porposes like :
+ \begin{itemize}
+ \item  The database data can be further used in machine learning to predict the various charachteristics of radar.
+ \item The database data can be used for predicting target path based on the data already logged.
+ \item Further the data can be used to get the information of radar previous records.
+ \item It can also be used to simulate and check and analyse the output of radar system.
+ \item It also opens door to process data and compare the efficiencies of different radar system.
+ \end{itemize}
 \end{document}
