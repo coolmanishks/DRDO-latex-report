@@ -72,6 +72,7 @@
 
 \begin{document}
 \tableofcontents
+\pagebreak
 \listoffigures
 \pagebreak
 \title{CHAPTER 1}
@@ -632,6 +633,85 @@ Quick Reaction Surface ­to­ Air Missile (QRSAM) the homegrown canister ­based
 \item The BSR and BMFR use advanced platform motion compensation and electronic stabilization algorithms along with high accuracy motion sensors. Both radars are mounted on 8x8 High Mobility Vehicles and are capable of operating on the move in plains, deserts and semi-deserts.
 \end{itemize}
 
+
+\pagebreak
+
+\title{CHAPTER 6}
+\maketitle
+\section{SOLUTION}
+
+\subsection{DATA RESOURCE}
+\subsubsection{TYPICAL RADAR DATA}
+A typical radar collects data as follows: it emits a coherent train of microwave pulses and coherently processes reflected pulses in a pulse-Doppler radar processor . To achieve a desired resolution, many pulse meausurements must be integrated . Conceptually, one can view the processed and integrated pulses as bins of a radar beam or ray. The radar then moves to the next azimuth and the process is repeated. When one azimuthal sweep is complete, the radar increases the antenna elevation angle and collects the next sweep. A complete set of azimuthal sweeps collected over all elevation angles is called a volume, and once a volume has been collected the radar moves the antenna to its lowest elevation angle in preparation for the base sweep of the next volume. The data collection strategy (e.g. number of bins in a ray) and the antenna sweeping strategy (e.g., number of azimuths in an azimuthal sweep, number of dwells in a volume) depend upon the radar, and are in many cases under control of the radar operator.  Volumes are typically saved one per file, though it is common to store volumes of multiple variables in the same file. Thus, a single volume file may contain pure reflectivity, quality-controlled reflectivity, as well as Doppler velocity information. Each volume file has a header that contains information about the volume such as  number of dwells, range, velocity, dwellcount, dwelltype and so on, followed by the rays that make up the volume. Each dwell data is preceded by a dwell header that contains information about the dwell, such as dwell time and type, ray elevation and azimuth, the number of range cells for the dwells, and so on. Following the header are the data for the particular dwells. This data is stored in a binary file which is further processed to extract all the information about the dwells.
+
+\subsubsection{RADAR DATA USED IN THE PROJECT }
+The radar data used in this project has following specifications :
+\begin{itemize}
+
+\item The data used in this project has 10 files with a size of almost 1 GB which totals to 10 GB of data, which was collected at DRDO Laboratory by simulation of Radar with various conditions and parameters.
+ \item The radar raw data is in binary format which contains continuous collection of  header and its data .
+ \end{itemize}
+\subsubsection{PROBLEMS TO BE SOLVED}
+The radar data is not of high resolution and following things are to be solved before logging the data into the database.
+\begin{itemize}
+\item The raw data is having garbage value which is to be removed and logged into the database by a proper algorithm.
+\item The  raw data is in various parts that is one file may have a part of header and other file may have the rest. So,  requires proper reading of data even when file execution completes in between header or its data.
+ \end{itemize}
+
+\subsection{PROPOSED SOLUTION }
+The proposed solution has three phases of development :
+\subsubsection{PSP DATA LOGGER APPLICATION}
+Data Logger is an application which reads raw binary files from the directory one by one and removes clutter data and log the clean extracted data in database for further processing\\
+\\ \textbf{BLOCK DIAGRAM}
+\\ The figure below shows the block diagram of PSP data logger application :
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{psploggerblockdiagram.jpg}}
+  \caption{PSP Data Logger Block Diagram}
+  \label{fig:figure 12}
+\end{figure}
+
+\pagebreak
+\noindent \textbf{DATA FLOW DIAGRAM}
+\\ The figure below shows the Data flow diagram of PSP data logger application :
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{flow-diagram.jpg}}
+  \caption{PSP Data Logger Data Flow Diagram}
+  \label{fig:figure 12}
+\end{figure}
+
+
+\subsubsection{PSP DATA MERGER APPLICATION}
+Data merger is an application which merges clean binary header and its data based on the input information and save it in a binary file for further processing\\
+\\ \textbf{BLOCK DIAGRAM}
+\\ The figure below shows the block diagram of PSP data merger application :
+
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.75\linewidth]{pspmergerblockdiagram.jpg}}
+  \caption{PSP Data Merger Block Diagram}
+  \label{fig:figure 12}
+\end{figure}
+
+ \noindent \textbf{DATA FLOW DIAGRAM}
+\\ The figure below shows the Data flow diagram of PSP data merger application :
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.9\linewidth]{pspmergerflow.jpg}}
+  \caption{PSP Data Merger Data Flow Diagram}
+  \label{fig:figure 12}
+\end{figure}
+
+\subsubsection{ANALYSIS USING MATLAB}
+For analysis of data, MATLAB is used. The database containing table dwelldata is connected to matlab through ODBC driver. Then the data is imported from MATLAB and the data is stored in cell array.
+The data is accessed as per need and converted to MATLAB array which is further used for ploting graphs. Different sets of variables where taken for analysis.\\
+ \noindent \textbf{DATA FLOW DIAGRAM}\\
+The diagram below shows the Data flow diagram of analysis :
+\begin{figure}[H]
+    \centerline{\includegraphics[width=0.9\linewidth]{MATLABflow.jpg}}
+  \caption{Analysis phase Data Flow Diagram}
+  \label{fig:figure 12}
+\end{figure}
+
 \pagebreak
 
 \title{CHAPTER 7}
@@ -786,7 +866,70 @@ The graph between dwellcount vs Azimuth shows that the radar was operated priodi
   \begin{tcolorbox}[title =\textbf{Analysis}]
   The graph  between dwellcount vs Azimuth from 20274 to 20375 dwellcout, shows many cycles of peaks and troughs which implies that the radar is continuously radiating dwells from azimuth 0.7 to - 0.7 in regular intervals
   \end{tcolorbox}
-  
+  \begin{tcolorbox}[colframe=red]
   The overall analysis of dwellcount vs azimuth graph shows that the radar is sending 50 dwells for each cycle of sweep through 0.7 to - 0.7 azimuth and again starts from 0.7. 
+  \end{tcolorbox}
+  \subsection{DWELLCOUNT VS ELEVATION GRAPH}
+  \noindent \textbf{Definition : }\\
+   \indent Elevation (antenna coordinates) Vertical angle (relative to the antenna face normal) that a beam must be steered to intersect a target, following alignment in azimuth. 
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=0.7\linewidth]{elevation.jpg}}
+  \caption{Elevation is as shown in the figure}
+  \label{fig:figure 23}
+  \end{figure}
+  \textbf{Plot : }The dwellcount and elevation column is stored in an array variable x and y and plots where made as shown in Figure:
   
+  \subsubsection{Plot for dwellcount 274 to 25344}
+     \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{dwellcount-elevation(1,25067).jpg}}
+  \caption{Plot of dwellcount vs Elevation graph of all the dwellcount from 274 to 25344}
+  \label{fig:figure 23(a)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+The graph between dwellcount vs Elevation shows that the radar was operated priodically between 0.12 to - 0.14 elevation .
+  \end{tcolorbox}
+  
+  \subsubsection{Plot for dwellcount 274 to 285}
+  \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{elevation(1,10).jpg}}
+  \caption{Plot of dwellcount vs elevation graph of all the dwellcount from 274 to 25344}
+  \label{fig:figure 23(b)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs elevation of small interval from 274 to 285 shows an increasing curve, which implies that the radar radiates dwells by continously changing the elevation angles of operation.
+  \end{tcolorbox}
+  
+  \subsubsection{Plot for dwellcount 4274 to 4295}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{elevation(4000,4020).jpg}}
+  \caption{Plot of dwellcount vs elevation graph of all the dwellcount from 4274 to 4295}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs elevation from 4274 to 4295 dwellcout, also shows an increasing curve, which implies that the radar radiates dwells by continously changing the elevation angles of operation.
+  \end{tcolorbox}
+  
+   \subsubsection{Plot for dwellcount 10274 to 10325}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{elevation(10000,10050).jpg}}
+  \caption{Plot of dwellcount vs elevation graph of all the dwellcount from 10274 to 10325}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs elevation from 10274 to 10325 dwellcout, shows a sudden change in a curve which implies that the radar first radiates dwells at increasing elevation then backtrack from particular peak to lower elevation angle and then it again starts
+  radiating dwells at increasing elevation angle and this time the peak is at a high position than the previous one.
+  \end{tcolorbox}
+  
+   \subsubsection{Plot for dwellcount 20274 to 20375}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{elevation(20000,20100).jpg}}
+  \caption{Plot of dwellcount vs elevation graph of all the dwellcount from 20274 to 20375}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs elevation from 20274 to 20375 dwellcout, shows many cycles of peaks and troughs which implies that the radar is continuously radiating dwells at increasing elevation and then come back at some particular lower elevation level and again starts radiating dwells at increasing elevation level and the peak is at a higher position than previous peak.
+  \end{tcolorbox}
+  \begin{tcolorbox}[colframe=red]
+    The overall analysis of dwellcount vs elevation graph shows that the radar is sending  dwells at increasing elevation and then decreasing it to a particular level and repeat th cycle by increasing the peak with each cycle of dwellcounts till 0.12 and then it sweeps back to -0.14 and starts the process again.
+   \end{tcolorbox}
 \end{document}

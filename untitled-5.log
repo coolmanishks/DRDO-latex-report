@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  20 AUG 2017 07:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  20 AUG 2017 15:45
 entering extended mode
 **./untitled-5.tex
 (untitled-5.tex
@@ -1323,350 +1323,438 @@ No file untitled-5.toc.
 \tf@toc=\write6
 \openout6 = `untitled-5.toc'.
 
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
 No file untitled-5.lof.
 \tf@lof=\write7
 \openout7 = `untitled-5.lof'.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 78.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+[2]
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 79.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 78.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 79.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 78.
+(Font)              <12> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 78.
+(Font)              <8> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 79.
 
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 92.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 93.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 92.
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 100--107
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 93.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--107
+Underfull \hbox (badness 10000) in paragraph at lines 101--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-<steps.png, id=20, 476.5002pt x 675.9654pt>
+<steps.png, id=23, 476.5002pt x 675.9654pt>
 File: steps.png Graphic file (type png)
  <use steps.png>
-Package pdftex.def Info: steps.png used on input line 136.
+Package pdftex.def Info: steps.png used on input line 137.
 (pdftex.def)             Requested size: 318.67209pt x 452.08994pt.
- [4] [5 <./steps.png>]
+ [5] [6 <./steps.png>]
 
 LaTeX Warning: No \author given.
 
-[6] [7]
+[7] [8]
 
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 210.
+(Font)              <10> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 210.
+(Font)              <7> on input line 211.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 210.
-<RadarBlockDiagram.png, id=37, 442.65375pt x 258.21469pt>
+(Font)              <5> on input line 211.
+<RadarBlockDiagram.png, id=40, 442.65375pt x 258.21469pt>
 File: RadarBlockDiagram.png Graphic file (type png)
 
 <use RadarBlockDiagram.png>
-Package pdftex.def Info: RadarBlockDiagram.png used on input line 216.
+Package pdftex.def Info: RadarBlockDiagram.png used on input line 217.
 (pdftex.def)             Requested size: 398.3386pt x 232.3753pt.
- [8] <band.jpg, id=41, 597.23125pt x 464.73625pt>
+ [9] <band.jpg, id=44, 597.23125pt x 464.73625pt>
 File: band.jpg Graphic file (type jpg)
 
 <use band.jpg>
-Package pdftex.def Info: band.jpg used on input line 233.
+Package pdftex.def Info: band.jpg used on input line 234.
 (pdftex.def)             Requested size: 298.75394pt x 232.47392pt.
- [9 <./RadarBlockDiagram.png>]
-<Horizonradar.png, id=46, 411.03563pt x 272.51813pt>
+ [10 <./RadarBlockDiagram.png>]
+<Horizonradar.png, id=49, 411.03563pt x 272.51813pt>
 File: Horizonradar.png Graphic file (type png)
  <use Horizonradar.png>
-Package pdftex.def Info: Horizonradar.png used on input line 244.
+Package pdftex.def Info: Horizonradar.png used on input line 245.
 (pdftex.def)             Requested size: 398.3386pt x 264.10107pt.
 
-[10 <./band.jpg>] <fylingdales.png, id=50, 421.575pt x 302.63063pt>
+[11 <./band.jpg>] <fylingdales.png, id=53, 421.575pt x 302.63063pt>
 File: fylingdales.png Graphic file (type png)
 
 <use fylingdales.png>
-Package pdftex.def Info: fylingdales.png used on input line 252.
+Package pdftex.def Info: fylingdales.png used on input line 253.
 (pdftex.def)             Requested size: 398.3386pt x 285.95512pt.
- [11 <./Horizonradar.png>]
-<Navy.png, id=55, 472.76625pt x 244.66406pt>
+ [12 <./Horizonradar.png>]
+<Navy.png, id=58, 472.76625pt x 244.66406pt>
 File: Navy.png Graphic file (type png)
  <use Navy.png>
-Package pdftex.def Info: Navy.png used on input line 259.
+Package pdftex.def Info: Navy.png used on input line 260.
 (pdftex.def)             Requested size: 398.3386pt x 206.15105pt.
 
-<airforce.png, id=56, 469.00218pt x 268.00125pt>
+<airforce.png, id=59, 469.00218pt x 268.00125pt>
 File: airforce.png Graphic file (type png)
  <use airforce.png>
-Package pdftex.def Info: airforce.png used on input line 267.
+Package pdftex.def Info: airforce.png used on input line 268.
 (pdftex.def)             Requested size: 398.3386pt x 227.6222pt.
- [12 <./fylingdales.png> <./Navy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--282
+ [13 <./fylingdales.png> <./Navy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 278--283
 
  []
 
-[13 <./airforce.png>] [14] <radartypes.png, id=73, 447.92343pt x 238.64156pt>
+[14 <./airforce.png>] [15] <radartypes.png, id=76, 447.92343pt x 238.64156pt>
 File: radartypes.png Graphic file (type png)
 
 <use radartypes.png>
-Package pdftex.def Info: radartypes.png used on input line 340.
+Package pdftex.def Info: radartypes.png used on input line 341.
 (pdftex.def)             Requested size: 398.3386pt x 212.23009pt.
- [15 <./radartypes.png>] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 404--407
+ [16 <./radartypes.png>] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 405--408
 
  []
 
-<MFR.png, id=81, 526.21594pt x 394.47375pt>
+<MFR.png, id=84, 526.21594pt x 394.47375pt>
 File: MFR.png Graphic file (type png)
  <use MFR.png>
-Package pdftex.def Info: MFR.png used on input line 428.
+Package pdftex.def Info: MFR.png used on input line 429.
 (pdftex.def)             Requested size: 398.3386pt x 298.6234pt.
- [17 <./MFR.png>]
-[18]
+ [18 <./MFR.png>]
+[19]
 
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--486
+Underfull \hbox (badness 10000) in paragraph at lines 476--487
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--486
+Underfull \hbox (badness 10000) in paragraph at lines 476--487
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--486
+Underfull \hbox (badness 10000) in paragraph at lines 476--487
 
  []
 
-<hierarchical.jpg, id=89, 136.3494pt x 118.5228pt>
+<hierarchical.jpg, id=93, 136.3494pt x 118.5228pt>
 File: hierarchical.jpg Graphic file (type jpg)
  <use hierarchical.jpg>
-Package pdftex.def Info: hierarchical.jpg used on input line 497.
+Package pdftex.def Info: hierarchical.jpg used on input line 498.
 (pdftex.def)             Requested size: 278.83578pt x 242.38911pt.
 
-[19] [20 <./hierarchical.jpg>]
-<relational.jpg, id=98, 319.94531pt x 208.52907pt>
+[20] [21 <./hierarchical.jpg>]
+<relational.jpg, id=101, 319.94531pt x 208.52907pt>
 File: relational.jpg Graphic file (type jpg)
  <use relational.jpg>
-Package pdftex.def Info: relational.jpg used on input line 509.
+Package pdftex.def Info: relational.jpg used on input line 510.
 (pdftex.def)             Requested size: 258.91765pt x 168.75488pt.
 
-<object.png, id=99, 321.2pt x 237.88875pt>
+<object.png, id=102, 321.2pt x 237.88875pt>
 File: object.png Graphic file (type png)
  <use object.png>
-Package pdftex.def Info: object.png used on input line 525.
+Package pdftex.def Info: object.png used on input line 526.
 (pdftex.def)             Requested size: 258.91765pt x 191.76683pt.
- [21 <./relational.jpg> <./object.png>] [22] [23]
+ [22 <./relational.jpg> <./object.png>] [23] [24]
 
 LaTeX Warning: No \author given.
 
-<qrsam.jpg, id=110, 481.8pt x 271.0125pt>
+<qrsam.jpg, id=113, 481.8pt x 271.0125pt>
 File: qrsam.jpg Graphic file (type jpg)
  <use qrsam.jpg>
-Package pdftex.def Info: qrsam.jpg used on input line 588.
+Package pdftex.def Info: qrsam.jpg used on input line 589.
 (pdftex.def)             Requested size: 398.3386pt x 224.07188pt.
- [24 <./qrsam.jpg>]
-<qrsam-radar.jpg, id=114, 301.125pt x 205.76875pt>
+ [25 <./qrsam.jpg>]
+<qrsam-radar.jpg, id=118, 301.125pt x 205.76875pt>
 File: qrsam-radar.jpg Graphic file (type jpg)
  <use qrsam-radar.jpg>
-Package pdftex.def Info: qrsam-radar.jpg used on input line 606.
+Package pdftex.def Info: qrsam-radar.jpg used on input line 607.
 (pdftex.def)             Requested size: 278.83578pt x 190.55602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\OT1/lmr/bx/n/10 Frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\OT1/lmr/bx/n/10 Max Tar-get
  []
 
-[25 <./qrsam-radar.jpg>] [26]
+[26 <./qrsam-radar.jpg>] [27]
 
 LaTeX Warning: No \author given.
 
-<LoggerFrontPage.jpg, id=123, 1026.83624pt x 548.0475pt>
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 664--667
+
+ []
+
+<psploggerblockdiagram.jpg, id=129, 210.3057pt x 206.4513pt>
+File: psploggerblockdiagram.jpg Graphic file (type jpg)
+
+<use psploggerblockdiagram.jpg>
+Package pdftex.def Info: psploggerblockdiagram.jpg used on input line 669.
+(pdftex.def)             Requested size: 398.3386pt x 391.08018pt.
+ [29 <./psploggerblockdiagram.jpg>]
+<flow-diagram.jpg, id=133, 426.8748pt x 569.0058pt>
+File: flow-diagram.jpg Graphic file (type jpg)
+ <use flow-diagram.jpg>
+Package pdftex.def Info: flow-diagram.jpg used on input line 679.
+(pdftex.def)             Requested size: 398.3386pt x 531.00189pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--689
+
+ []
+
+<pspmergerblockdiagram.jpg, id=134, 210.3057pt x 206.4513pt>
+File: pspmergerblockdiagram.jpg Graphic file (type jpg)
+
+<use pspmergerblockdiagram.jpg>
+Package pdftex.def Info: pspmergerblockdiagram.jpg used on input line 691.
+(pdftex.def)             Requested size: 298.75394pt x 293.31093pt.
+ [30 <./flow-diagram.jpg>]
+<pspmergerflow.jpg, id=138, 327.8649pt x 284.5029pt>
+File: pspmergerflow.jpg Graphic file (type jpg)
+ <use pspmergerflow.jpg>
+Package pdftex.def Info: pspmergerflow.jpg used on input line 699.
+(pdftex.def)             Requested size: 358.50229pt x 311.10481pt.
+
+<MATLABflow.jpg, id=139, 327.8649pt x 284.5029pt>
+File: MATLABflow.jpg Graphic file (type jpg)
+ <use MATLABflow.jpg>
+Package pdftex.def Info: MATLABflow.jpg used on input line 710.
+(pdftex.def)             Requested size: 358.50229pt x 311.10481pt.
+ [31 <./pspmergerblockdiagram.jpg> <./pspmergerflow.jpg>] [32 <./MATLABflow.jpg
+>]
+
+LaTeX Warning: No \author given.
+
+<LoggerFrontPage.jpg, id=147, 1026.83624pt x 548.0475pt>
 File: LoggerFrontPage.jpg Graphic file (type jpg)
 
 <use LoggerFrontPage.jpg>
-Package pdftex.def Info: LoggerFrontPage.jpg used on input line 644.
+Package pdftex.def Info: LoggerFrontPage.jpg used on input line 724.
 (pdftex.def)             Requested size: 398.3386pt x 212.60036pt.
 
-<DirectoryPage.jpg, id=124, 1026.83624pt x 548.0475pt>
+<DirectoryPage.jpg, id=148, 1026.83624pt x 548.0475pt>
 File: DirectoryPage.jpg Graphic file (type jpg)
  <use DirectoryPage.jpg>
-Package pdftex.def Info: DirectoryPage.jpg used on input line 663.
+Package pdftex.def Info: DirectoryPage.jpg used on input line 743.
 (pdftex.def)             Requested size: 398.3386pt x 212.60036pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--666
+Underfull \hbox (badness 10000) in paragraph at lines 741--746
 
  []
 
-[27 <./LoggerFrontPage.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 668--670
+[33 <./LoggerFrontPage.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 748--750
 
  []
 
-<database_table_data2.jpg, id=128, 1026.83624pt x 548.0475pt>
+<database_table_data2.jpg, id=152, 1026.83624pt x 548.0475pt>
 File: database_table_data2.jpg Graphic file (type jpg)
 
 <use database_table_data2.jpg>
-Package pdftex.def Info: database_table_data2.jpg used on input line 672.
+Package pdftex.def Info: database_table_data2.jpg used on input line 752.
 (pdftex.def)             Requested size: 398.3386pt x 212.60036pt.
 
-<PSPloggerform.jpg, id=129, 505.13719pt x 354.57469pt>
+<PSPloggerform.jpg, id=153, 505.13719pt x 354.57469pt>
 File: PSPloggerform.jpg Graphic file (type jpg)
  <use PSPloggerform.jpg>
-Package pdftex.def Info: PSPloggerform.jpg used on input line 678.
+Package pdftex.def Info: PSPloggerform.jpg used on input line 758.
 (pdftex.def)             Requested size: 318.67209pt x 223.69162pt.
 
-[28 <./DirectoryPage.jpg> <./database_table_data2.jpg>]
-<extractor2.jpg, id=133, 1026.83624pt x 548.0475pt>
+[34 <./DirectoryPage.jpg> <./database_table_data2.jpg>]
+<extractor2.jpg, id=157, 1026.83624pt x 548.0475pt>
 File: extractor2.jpg Graphic file (type jpg)
  <use extractor2.jpg>
-Package pdftex.def Info: extractor2.jpg used on input line 688.
+Package pdftex.def Info: extractor2.jpg used on input line 768.
 (pdftex.def)             Requested size: 398.3386pt x 212.60036pt.
 
-<PSPmerger.jpg, id=134, 511.9125pt x 268.75406pt>
+<PSPmerger.jpg, id=158, 511.9125pt x 268.75406pt>
 File: PSPmerger.jpg Graphic file (type jpg)
  <use PSPmerger.jpg>
-Package pdftex.def Info: PSPmerger.jpg used on input line 693.
+Package pdftex.def Info: PSPmerger.jpg used on input line 773.
 (pdftex.def)             Requested size: 398.3386pt x 209.12701pt.
- [29 <./PSPloggerform.jpg> <./extractor2.jpg>] [30 <./PSPmerger.jpg>]
+ [35 <./PSPloggerform.jpg> <./extractor2.jpg>] [36 <./PSPmerger.jpg>]
 
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--717
+Underfull \hbox (badness 10000) in paragraph at lines 794--797
 
  []
 
-<dwellcount-range(1,25067).jpg, id=141, 1361.085pt x 659.46375pt>
+<dwellcount-range(1,25067).jpg, id=165, 1361.085pt x 659.46375pt>
 File: dwellcount-range(1,25067).jpg Graphic file (type jpg)
 
 <use dwellcount-range(1,25067).jpg>
-Package pdftex.def Info: dwellcount-range(1,25067).jpg used on input line 721.
+Package pdftex.def Info: dwellcount-range(1,25067).jpg used on input line 801.
 (pdftex.def)             Requested size: 398.3386pt x 193.00053pt.
 
-<azimuth.png, id=142, 351.3125pt x 338.26375pt>
+<azimuth.png, id=166, 351.3125pt x 338.26375pt>
 File: azimuth.png Graphic file (type png)
  <use azimuth.png>
-Package pdftex.def Info: azimuth.png used on input line 733.
+Package pdftex.def Info: azimuth.png used on input line 813.
 (pdftex.def)             Requested size: 159.333pt x 153.41989pt.
- [31 <./dwellcount-range(1,25067).jpg>]
-<dwellcount-azimuth(1,25067).jpg, id=147, 1369.115pt x 659.46375pt>
+ [37 <./dwellcount-range(1,25067).jpg>]
+<dwellcount-azimuth(1,25067).jpg, id=171, 1369.115pt x 659.46375pt>
 File: dwellcount-azimuth(1,25067).jpg Graphic file (type jpg)
 
 <use dwellcount-azimuth(1,25067).jpg>
-Package pdftex.def Info: dwellcount-azimuth(1,25067).jpg used on input line 741
+Package pdftex.def Info: dwellcount-azimuth(1,25067).jpg used on input line 821
 .
 (pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
 
-<azimuth(1,10).jpg, id=148, 1369.115pt x 659.46375pt>
+<azimuth(1,10).jpg, id=172, 1369.115pt x 659.46375pt>
 File: azimuth(1,10).jpg Graphic file (type jpg)
  <use azimuth(1,10).jpg>
-Package pdftex.def Info: azimuth(1,10).jpg used on input line 751.
+Package pdftex.def Info: azimuth(1,10).jpg used on input line 831.
 (pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
 
-[32 <./azimuth.png> <./dwellcount-azimuth(1,25067).jpg>]
-<azimuth(4000,4020).jpg, id=153, 1369.115pt x 659.46375pt>
+[38 <./azimuth.png> <./dwellcount-azimuth(1,25067).jpg>]
+<azimuth(4000,4020).jpg, id=177, 1369.115pt x 659.46375pt>
 File: azimuth(4000,4020).jpg Graphic file (type jpg)
 
 <use azimuth(4000,4020).jpg>
-Package pdftex.def Info: azimuth(4000,4020).jpg used on input line 761.
+Package pdftex.def Info: azimuth(4000,4020).jpg used on input line 841.
 (pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
 
-<azimuth(10000,10050).jpg, id=154, 1369.115pt x 659.46375pt>
+<azimuth(10000,10050).jpg, id=178, 1369.115pt x 659.46375pt>
 File: azimuth(10000,10050).jpg Graphic file (type jpg)
 
 <use azimuth(10000,10050).jpg>
-Package pdftex.def Info: azimuth(10000,10050).jpg used on input line 772.
+Package pdftex.def Info: azimuth(10000,10050).jpg used on input line 852.
 (pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
- [33 <./azimuth(1,10).jpg> <./azimuth(4000,4020).jpg>] <azimuth(20000,20100).jp
-g, id=158, 1369.115pt x 659.46375pt>
+ [39 <./azimuth(1,10).jpg> <./azimuth(4000,4020).jpg>] <azimuth(20000,20100).jp
+g, id=182, 1369.115pt x 659.46375pt>
 File: azimuth(20000,20100).jpg Graphic file (type jpg)
 
 <use azimuth(20000,20100).jpg>
-Package pdftex.def Info: azimuth(20000,20100).jpg used on input line 782.
+Package pdftex.def Info: azimuth(20000,20100).jpg used on input line 862.
 (pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
- [34 <./azimuth(10000,10050).jpg> <./azimuth(20000,20100).jpg>] [35] (untitled-
-5.aux)
+ [40 <./azimuth(10000,10050).jpg> <./azimuth(20000,20100).jpg>] <elevation.jpg,
+ id=186, 389.20406pt x 209.28188pt>
+File: elevation.jpg Graphic file (type jpg)
+
+<use elevation.jpg>
+Package pdftex.def Info: elevation.jpg used on input line 876.
+(pdftex.def)             Requested size: 278.83578pt x 149.93875pt.
+
+<dwellcount-elevation(1,25067).jpg, id=187, 1361.085pt x 659.46375pt>
+File: dwellcount-elevation(1,25067).jpg Graphic file (type jpg)
+
+<use dwellcount-elevation(1,25067).jpg>
+Package pdftex.def Info: dwellcount-elevation(1,25067).jpg used on input line 8
+84.
+(pdftex.def)             Requested size: 398.3386pt x 193.00053pt.
+
+<elevation(1,10).jpg, id=188, 1369.115pt x 659.46375pt>
+File: elevation(1,10).jpg Graphic file (type jpg)
+
+<use elevation(1,10).jpg>
+Package pdftex.def Info: elevation(1,10).jpg used on input line 894.
+(pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
+ [41 <./elevation.jpg> <./dwellcount-elevation(1,25067).jpg>] <elevation(4000,4
+020).jpg, id=192, 1369.115pt x 659.46375pt>
+File: elevation(4000,4020).jpg Graphic file (type jpg)
+
+<use elevation(4000,4020).jpg>
+Package pdftex.def Info: elevation(4000,4020).jpg used on input line 904.
+(pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
+
+<elevation(10000,10050).jpg, id=193, 1369.115pt x 659.46375pt>
+File: elevation(10000,10050).jpg Graphic file (type jpg)
+
+<use elevation(10000,10050).jpg>
+Package pdftex.def Info: elevation(10000,10050).jpg used on input line 914.
+(pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
+ [42 <./elevation(1,10).jpg> <./elevation(4000,4020).jpg>] <elevation(20000,201
+00).jpg, id=197, 1369.115pt x 659.46375pt>
+File: elevation(20000,20100).jpg Graphic file (type jpg)
+
+<use elevation(20000,20100).jpg>
+Package pdftex.def Info: elevation(20000,20100).jpg used on input line 925.
+(pdftex.def)             Requested size: 398.3386pt x 191.86346pt.
+ [43 <./elevation(10000,10050).jpg> <./elevation(20000,20100).jpg>] [44] (untit
+led-5.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23458 strings out of 493328
- 459656 string characters out of 3139122
- 502618 words of memory out of 3000000
- 26611 multiletter control sequences out of 15000+200000
+ 23520 strings out of 493328
+ 461165 string characters out of 3139122
+ 502619 words of memory out of 3000000
+ 26662 multiletter control sequences out of 15000+200000
  583161 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,15n,73p,10401b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1682,9 +1770,9 @@ KTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on untitled-5.pdf (35 pages, 2567902 bytes).
+Output written on untitled-5.pdf (44 pages, 8615847 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
+ 248 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
