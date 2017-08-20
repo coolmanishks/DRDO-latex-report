@@ -2,26 +2,53 @@
 \contentsline {subsection}{\numberline {1.1}INTRODUCTION}{2}
 \contentsline {subsection}{\numberline {1.2}PROBLEM STATEMENT}{2}
 \contentsline {subsection}{\numberline {1.3}OBJECTIVE}{2}
-\contentsline {subsection}{\numberline {1.4}STEPS INVOLVED}{3}
-\contentsline {subsection}{\numberline {1.5}CONSTRAINTS}{3}
-\contentsline {section}{\numberline {2}ABOUT LRDE, DRDO}{5}
-\contentsline {subsection}{\numberline {2.1}ABOUT ORGANISATION}{5}
-\contentsline {subsection}{\numberline {2.2}CORE COMPETENCIES}{5}
-\contentsline {subsection}{\numberline {2.3}ACTIVITIES}{5}
-\contentsline {section}{\numberline {3}ABOUT RADAR}{7}
-\contentsline {subsection}{\numberline {3.1}RADAR FUNDAMENTALS}{7}
-\contentsline {subsection}{\numberline {3.2}RADAR BLOCK DIAGRAM}{7}
-\contentsline {subsection}{\numberline {3.3}RADAR FREQUENCY BANDS}{8}
-\contentsline {subsection}{\numberline {3.4}RANGE PERFORMANCE OF RADARS}{12}
-\contentsline {subsection}{\numberline {3.5}HISTORY OF RADAR}{13}
-\contentsline {subsection}{\numberline {3.6} TYPES OF RADAR}{14}
-\contentsline {subsubsection}{\numberline {3.6.1}Frequency based radar types}{14}
-\contentsline {subsubsection}{\numberline {3.6.2}Waveform Based radar classification}{15}
-\contentsline {subsubsection}{\numberline {3.6.3}PRF Based radar classification}{15}
-\contentsline {subsubsection}{\numberline {3.6.4}Application based radar classification}{15}
-\contentsline {subsection}{\numberline {3.7}APPLICATIONS OF RADAR}{15}
-\contentsline {subsection}{\numberline {3.8}RADAR SUBSYSTEMS}{16}
-\contentsline {section}{\numberline {4}ABOUT DATABASES}{18}
-\contentsline {subsection}{\numberline {4.1}INTRODUCTION}{18}
-\contentsline {subsection}{\numberline {4.2}ADVANTAGES OF DBMS:}{21}
-\contentsline {subsection}{\numberline {4.3}DISADVANTAGES OF DBMS}{21}
+\contentsline {subsection}{\numberline {1.4}LITERATURE SURVEY}{2}
+\contentsline {subsection}{\numberline {1.5}HARDWARE USED}{3}
+\contentsline {subsection}{\numberline {1.6}SOFTWARE USED}{3}
+\contentsline {subsection}{\numberline {1.7}TECHNOLOGY STACK}{4}
+\contentsline {subsubsection}{\numberline {1.7.1}Back-end Technology Stack}{4}
+\contentsline {subsubsection}{\numberline {1.7.2}Fron-end Technology Stack}{4}
+\contentsline {subsection}{\numberline {1.8}STEPS INVOLVED IN DEVELOPMENT}{5}
+\contentsline {subsection}{\numberline {1.9}CONSTRAINTS}{5}
+\contentsline {section}{\numberline {2}ABOUT LRDE, DRDO}{6}
+\contentsline {subsection}{\numberline {2.1}ABOUT ORGANISATION}{6}
+\contentsline {subsection}{\numberline {2.2}CORE COMPETENCIES}{6}
+\contentsline {subsection}{\numberline {2.3}ACTIVITIES}{6}
+\contentsline {section}{\numberline {3}ABOUT RADAR}{8}
+\contentsline {subsection}{\numberline {3.1}RADAR FUNDAMENTALS}{8}
+\contentsline {subsection}{\numberline {3.2}RADAR BLOCK DIAGRAM}{8}
+\contentsline {subsection}{\numberline {3.3}RADAR FREQUENCY BANDS}{9}
+\contentsline {subsection}{\numberline {3.4}RANGE PERFORMANCE OF RADARS}{13}
+\contentsline {subsection}{\numberline {3.5}HISTORY OF RADAR}{14}
+\contentsline {subsection}{\numberline {3.6} TYPES OF RADAR}{15}
+\contentsline {subsubsection}{\numberline {3.6.1}Frequency based radar types}{15}
+\contentsline {subsubsection}{\numberline {3.6.2}Waveform Based radar classification}{16}
+\contentsline {subsubsection}{\numberline {3.6.3}PRF Based radar classification}{16}
+\contentsline {subsubsection}{\numberline {3.6.4}Application based radar classification}{16}
+\contentsline {subsection}{\numberline {3.7}APPLICATIONS OF RADAR}{16}
+\contentsline {subsection}{\numberline {3.8}RADAR SUBSYSTEMS}{17}
+\contentsline {section}{\numberline {4}ABOUT DATABASES}{19}
+\contentsline {subsection}{\numberline {4.1}INTRODUCTION}{19}
+\contentsline {subsubsection}{\numberline {4.1.1}\textbf {Hierarchical DBMS:}}{20}
+\contentsline {subsubsection}{\numberline {4.1.2}\textbf {Network DBMS: }}{20}
+\contentsline {subsubsection}{\numberline {4.1.3}\textbf {Relational DBMS:}}{21}
+\contentsline {subsubsection}{\numberline {4.1.4}\textbf {Flat files DBMS:}}{21}
+\contentsline {subsubsection}{\numberline {4.1.5}\textbf {Object Oriented DBMS:}}{21}
+\contentsline {subsection}{\numberline {4.2}ADVANTAGES OF DBMS:}{22}
+\contentsline {subsection}{\numberline {4.3}DISADVANTAGES OF DBMS}{22}
+\contentsline {section}{\numberline {5}ABOUT QRSAM}{24}
+\contentsline {subsection}{\numberline {5.1}QUICK REACTION SURFACE-TO-AIR MISSILE (QRSAM)}{24}
+\contentsline {subsubsection}{\numberline {5.1.1}Features:}{24}
+\contentsline {subsubsection}{\numberline {5.1.2}Radar System of QRSAM}{25}
+\contentsline {section}{\numberline {6}RESULT OBTAINED}{27}
+\contentsline {subsection}{\numberline {6.1}Output Results}{27}
+\contentsline {subsubsection}{\numberline {6.1.1}PSP Logger}{27}
+\contentsline {subsubsection}{\numberline {6.1.2}PSP Merger}{29}
+\contentsline {section}{\numberline {7}ANALYSIS AND MATLAB PLOTS}{31}
+\contentsline {subsection}{\numberline {7.1}DWELLCOUNT VS RANGE GRAPH}{31}
+\contentsline {subsection}{\numberline {7.2}DWELLCOUNT VS AZIMUTH GRAPH}{31}
+\contentsline {subsubsection}{\numberline {7.2.1}Plot for dwellcount 274 to 25344}{32}
+\contentsline {subsubsection}{\numberline {7.2.2}Plot for dwellcount 274 to 285}{33}
+\contentsline {subsubsection}{\numberline {7.2.3}Plot for dwellcount 4274 to 4295}{33}
+\contentsline {subsubsection}{\numberline {7.2.4}Plot for dwellcount 10274 to 10325}{34}
+\contentsline {subsubsection}{\numberline {7.2.5}Plot for dwellcount 20274 to 20375}{34}

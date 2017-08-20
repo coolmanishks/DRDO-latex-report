@@ -20,17 +20,19 @@
 %   read geometry.pdf for detailed page layout information
 
 \usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{mdframed}
 
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{float}
 \usepackage{titling}
+\usepackage{subcaption}
 \setlength{\parindent}{4em}
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
-\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+%\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 % These packages are all incorporated in the memoir class to one degree or another...
 
 %%% HEADERS & FOOTERS
@@ -52,6 +54,9 @@
 \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 \usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage{tcolorbox}
+\usepackage{indentfirst}
 \usepackage{changepage}
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
@@ -81,11 +86,54 @@
 
 \subsection{OBJECTIVE}
  To develop a software capable of handling large raw binary radar data and reading each dwells and saving information in a database. Also the software should be capable of reading multiple data without any loss in dwells information and can exclude garbage data. The software should be able to extract clean required radar data and merge it to files. The final objective of this project includes its analysis and the algorithm devised should be fast enough to process large data at real time. 
+ \subsection{LITERATURE SURVEY}
+ The subject of Radar data logger is an active research area due to change in computer technologies and evolving software tools.
+ \begin{itemize}
+ \item In [1],author suggested and used MATLAB to process raw radar data produced from simulators like ISARLAB ( A simulator for high resolution radar data) which uses brut force method to read the data from raw binary files and then the binary file is converted into MATLAB binary format for its analysis.
+ \item In[2],author made a software which uses MATLAB for core processing and analysis of raw radar data at real time. To read data and its header from multiple files and its analysis, it used burst plot method in which if modification file is read the next time and same data file is opened, the already plotted burst will not be plotted again in the display plot.
+ \item In[3],author desribe the use of microprocessor to read the raw radar binary files and remove garbage and store high resolution data in SD card for further processing.
+ \item In[4],author proposes the use of database for automatic target recognition by gathering data in database and using the database for automatically detecting target.
+ \item In[5], analysis of traffic radar is done by using database and softwares which plots the data from the database on daily basis to help the government for analysing traffic in the city.
+ \end{itemize}
+
+\subsection{HARDWARE USED}
+\noindent The hardware used in this project are :\\
+\textbf{Processor : } \\
+\indent Intel (R) Xeon (R) CPU E5 - 2660, 2.20GHz\\
+\\ \textbf{Installed Memory : }\\
+\indent 16.0 GB\\
+\\ \textbf{System Type : }\\
+ \indent 64-bit Architecture
  
- \pagebreak
- \subsection{STEPS INVOLVED}
+ \subsection{SOFTWARE USED}
+ \noindent The software used in this project are :\\
+\\ \indent \textbf{Database :}\\
+\indent MS SQL 2008 R2 \\ \par
+  SQL Server Management Studio (SSMS) is a software application first launched with Microsoft SQL Server 2005 that is used for configuring, managing, and administering all components within Microsoft SQL Server. The tool includes both script editors and graphical tools which work with objects and features of the server.
+A central feature of SSMS is the Object Explorer, which allows the user to browse, select, and act upon any of the objects within the server. It also shipped a separate Express edition that could be freely downloaded, however recent versions of SSMS are fully capable of connecting to and manage any SQL Server Express instance. Microsoft also incorporated backwards compatibility for older versions of SQL Server thus allowing a newer version of SSMS to connect to older versions of SQL Server instances.\\  \par
+\textbf{Editor :}\\
+\indent Visual Studio 2008 version 9.0.30\\ \par
+Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.
+Visual Studio includes a code editor supporting IntelliSense (the code completion component) as well as code refactoring. The integrated debugger works both as a source-level debugger and a machine-level debugger. Other built-in tools include a code profiler, forms designer for building GUI applications, web designer, class designer, and database schema designer. It accepts plug-ins that enhance the functionality at almost every level—including adding support for source control systems (like Subversion) and adding new toolsets like editors and visual designers for domain-specific languages or toolsets for other aspects of the software development lifecycle (like the Team Foundation Server client: Team Explorer).\\  \par
+\textbf{Analysis Software :}\\
+\indent MATLAB R2009a\\ \par
+MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and fourth-generation programming language. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C\#, Java, Fortran and Python.
+Although MATLAB is intended primarily for numerical computing, an optional toolbox uses the MuPAD symbolic engine, allowing access to symbolic computing abilities. An additional package, Simulink, adds graphical multi-domain simulation and model-based design for dynamic and embedded systems.
+
+ 
+ \subsection{TECHNOLOGY STACK}
+\noindent The technology and languages used in this project are :
+\subsubsection{Back-end Technology Stack}
+\indent \textbf{SQL - } used for storing, accessing and retrieving various data across database.\\
+\\ \indent \textbf{C\# - } used for coding, connectivity, business logic generation and execution part.
+\subsubsection{Fron-end Technology Stack}
+\indent \textbf{ASP.Net, HTML, CSS and Javascript - } used for designing user interface. 
+
+
+
+ \subsection{STEPS INVOLVED IN DEVELOPMENT}
  \begin{figure}[H]
-  \includegraphics[width=\linewidth]{steps.png}
+ \centerline{\includegraphics[width=0.8\linewidth]{steps.png}}
   \caption{Steps involved.}
   \label{fig:figure 1}
 \end{figure}
@@ -442,8 +490,8 @@ A database management system (DBMS) is a software package with computer programs
 \item	 Object Oriented DBMS        
 \end{itemize}
 
-\begin{enumerate}
-\item \textbf{Hierarchical DBMS:}                                
+
+\subsubsection{\textbf{Hierarchical DBMS:}}                                
  \begin{figure}[H]
  
   \centerline{\includegraphics[width=0.7\linewidth]{hierarchical.jpg}}
@@ -452,11 +500,11 @@ A database management system (DBMS) is a software package with computer programs
 \end{figure}
 One of the earliest database management systems was based on the Hierarchical model. Here data can be organized in the form of free structure or level-by-level manner with one limitation that is "every sub node or child node should have only one parent node".
 
-\item \textbf{Network DBMS: }
-                       \\ Network databases are similar to hierarchical databases by also having a hierarchical structure. There are a few key differences, however. Instead of looking like an upside-down tree, a network database looks more like a cobweb or interconnected network of records. In network databases, children are called members and parents are called owners. The most important difference is that each child or member can have more than one parent (or owner). 
+\subsubsection{\textbf{Network DBMS: }}
+    Network databases are similar to hierarchical databases by also having a hierarchical structure. There are a few key differences, however. Instead of looking like an upside-down tree, a network database looks more like a cobweb or interconnected network of records. In network databases, children are called members and parents are called owners. The most important difference is that each child or member can have more than one parent (or owner). 
 Like hierarchical databases, network databases are principally used on mainframe computers. Since more connections can be made between different types of data, network databases are considered more flexible. However, two limitations must be considered when using this kind of database.
 \newpage
-\item \textbf{Relational DBMS:}
+\subsubsection{\textbf{Relational DBMS:}}
  \begin{figure}[H]
     \centerline{\includegraphics[width=0.65\linewidth]{relational.jpg}}
   \caption{Relational DBMS:}
@@ -470,9 +518,9 @@ RDBMS are most important database system used in the software industry today. It
 \item Many - One
 \item Many – Many
 \end{itemize}
-\item \textbf{Flat files DBMS:}
- \\In flat file database management system the user specifies the data attributes for one table at a time, storing data independently from application.
-\item \textbf{Object Oriented DBMS:}
+\subsubsection{\textbf{Flat files DBMS:}}
+ In flat file database management system the user specifies the data attributes for one table at a time, storing data independently from application.
+\subsubsection{\textbf{Object Oriented DBMS:}}
  \begin{figure}[H]
     \centerline{\includegraphics[width=0.65\linewidth]{object.png}}
   \caption{Object Oriented DBMS:}
@@ -482,7 +530,7 @@ Object Oriented DBMS Database that stores data elements as objects. Uses of obje
 An object database (also object-oriented database management system) is a database management system 
 In which information is represented in the form of objects as used in object-oriented programming. Object databases are different from relational databases and belongs together to the broader database management system.
 Object databases have been considered since the early 1980s and 1990s; they may be slower in simple mass commercial data transaction. Object databases main usage is in object oriented areas. 
- \end{enumerate}      
+      
                            
 \subsection{ADVANTAGES OF DBMS:} 
 There are many advantage of database management system; some of them are as follows.
@@ -529,5 +577,216 @@ Some disadvantages of DBMS are as follow:
 \item	MY SQL
 \end{enumerate}
 
+\pagebreak
 
+\title{CHAPTER 5}
+\maketitle
+\section{ABOUT QRSAM}
+\subsection{QUICK REACTION SURFACE-TO-AIR MISSILE (QRSAM)}
+Quick Reaction Surface ­to­ Air Missile (QRSAM) the homegrown canister ­based sophisticated high speed missile capable of destroying aerial targets and short range missiles.
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{qrsam.jpg}}
+  \caption{QRSAM launching High Mobility Vehicle (HMV)}
+  \label{fig:figure 13}
+\end{figure}
+\subsubsection{Features:}
+\begin{itemize}
+\item[] Canister mounted QRSAM is a highly mobile air defence system which comes with 100 percent kill probability, and has the capability to neutralise aerial targets like fighter jets, cruise missiles and air ­to ­surface missiles as well as short-range ballistic missiles. QRSAM is also a vital component in India’s \textbf{“Cold Start”} Doctrine which will ensure the safety of forward Army formations in Enemy territories.
+\item[] QRSAM and Man-portable air-defense systems (MANPADS) are only surface-to-air missile systems that are capable and also is highly mobile to move with strike corps deep into Pakistani territory to destroy selected targets.
+\item[] QRSAM Air Defence System has a Surveillance and target tracking systems, Command and Control Systems, Missile launchers which can provide Air Defence coverage while on the move. 
+\item[] Missiles have a reaction time of fewer than 6 Seconds once launch command of the missile is issued to the missile launcher. The missile system can engage multiple targets within a range from 3 km to 30 km in azimuth and 30 m to 6 km in altitude.
+\item[] The missile can engage aircraft at 500m/s at 20 km and 300m/s at 30 km, along with helicopters and UAVs. The missile also has terminal guidance using an RF seeker. The system has AESA radar with X-band Quad Transmit Reciever Modules (QTMs), Two Way Data Link (TWDL) and IFF. the \textbf{Battery Surveillance Radar (BSR)} has a range up to 120 km and the\textbf{ Multi-Function Fire Control Radar (BMFR)} has a tracking range of up to 80 km. 
+\item[] Truck based QRSAM Air Defence System can move at speed of 50kmph and has the ability to operate nearly 8 hours at a stretch without the need for refuelling. \textbf{High Mobility Vehicle (HMV)} used are capable of being operated in plains, deserts,semi-deserts, terrains found in India and can also be transported through broad gauge rakes of Indian railways. HMV also has NBC (nuclear, biological, chemical) system installed which ensures reliable protection of the crew and internal equipment against mass destruction weapons. HMV also have a Navigation system and Night vision devices to help Driver and Commander to move in the dark and also in unfamiliar terrains.
+\item[] QRSAM Air Defence System unlike Stationary Mobile Air Defence System like Akash and MR-SAM Surface to Air Missiles have fine tuned Surveillance and target tracking systems which have a higher density of aerial scans to reduce their detection time and improve their reaction time while operating in Enemy Territories and the missile can also be fired without missile launcher HMV being stopped. QRSAM Air Defence System is a critical component in India’s \textbf{“Cold Start”} Doctrine which has the ability not only to stop Aerial attacks from rival Air Force but also to neutralise Pakistan’s Solid fueled nuclear-capable tactical ballistic missile system Nasr (Hatf IX) which was specifically developed to attack “mechanized forces like armed brigades and divisions.
+\end{itemize}
+\subsubsection{Radar System of QRSAM}
+\begin{itemize}
+\item QRSAM system provides mobile area air defense missile cover to the mechanized assets of the Army. The radar unit in a QRSAM battery consists of one \textbf{Battery Surveillance Radar (BSR)} and \textbf{4 Battery Multi Function Radar (BMFR)}
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=0.7\linewidth]{qrsam-radar.jpg}}
+  \caption{QRSAM Radar on High Mobility Vehicle (HMV)}
+  \label{fig:figure 14}
+\end{figure}
+\item The BSR and BMFR ue state of the art active phased array technology combined with advanced signal processing and data processing algorithms to detect and track fixed wing aircrafts including hovering helicopters in intense EW environment.
+\pagebreak
+\begin{table}
+\centerline {\begin{tabular}{p{0.2\textwidth}p{0.2\textwidth}p{0.2\textwidth}} \\ \toprule
+&\textbf{BSR} & \textbf{BFSR}\\ \midrule
+\textbf{Frequency Band} & C-band & X-band \\ \midrule
+\textbf{Range} & 120km for 2m\textsuperscript{2} & 80km for 2m\textsuperscript{2} \\ \midrule
+\textbf{Angular Coverage} & Az : 360$^{\circ}$ & Az : 360$^{\circ}$   \\ 
+& El : 0 to 60$^{\circ}$ &  El : 0 to 60$^{\circ}$\\ \midrule
+\textbf{Target Altitude} & 30m - 6km & 30m - 6km\\ \midrule
+\textbf{Antenna Size} & 1.5m X 1m & 0.9m x 0.9m\\ \midrule
+\textbf{Resolution} & Range : 30m& Range : 30m\\ \midrule
+&Az   : 3$^{\circ}$ & Az    : $^{\circ}$\\
+&El     : 4$^{\circ}$ & El     : 3$^{\circ}$\\ \midrule
+\textbf{Accurac}y & Range : 30m & Range : 30m\\ 
+&Az     : 8 mrad & Az      : 5 mrad\\
+&El       : 8 mrad & El       : 5 mrad\\  \midrule
+\textbf{Max Target Speed} & 700 m/s & 700 m/s\\ \bottomrule
+\end{tabular}}
+\caption{Specification of QRSAM Radar}
+\end{table}
+
+\item The BSR and BMFR use advanced platform motion compensation and electronic stabilization algorithms along with high accuracy motion sensors. Both radars are mounted on 8x8 High Mobility Vehicles and are capable of operating on the move in plains, deserts and semi-deserts.
+\end{itemize}
+
+\pagebreak
+
+\title{CHAPTER 7}
+\maketitle
+\section{RESULT OBTAINED}
+\subsection{Output Results}
+
+\subsubsection{PSP Logger}
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{LoggerFrontPage.jpg}}
+  \caption{Web Application : PSP Logger Front Graphical User Interface}
+  \label{fig:figure 15}
+\end{figure}
+ The Figure 15 shows the Graphical User Interface(GUI) of PSP logger which takes all the information of the project 
+  The input field includes :
+  \begin{itemize} 
+  \item[] \textbf{Project Name : }Which describes the name of the project from which the raw data has been produced.
+  \item[] \textbf{Date : }Date on which the radar data was collected. 
+  \item[] \textbf{Time : }Time when the data was collected.
+  \item[] \textbf{Target Model : }Target model of the radar whose data is to be logged.  
+  \item[] \textbf{Radar Part ID : }Model of radar whose data is to be logged.
+  \item[] \textbf{Radar Name : }Name of the radar.
+  \item[] \textbf{Incharge : }Name of project incharge.
+  \item[] \textbf{Location : }Location where the testing of radar is done.
+  \item[] \textbf{Comment : }Other information about the project.
+  \end{itemize}
+  When the user clicks submit button after filling all the inputs, the user is redirected to page as show in Figure 16 which contains one field.\\
+   \begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{DirectoryPage.jpg}}
+  \caption{Web Application : PSP logger file directory page}
+  \label{fig:figure 17}
+\end{figure}  
+  
+\indent \textbf{File Directory :} It takes the path of the raw radar binary files which is to \indent be processed and logged.\\
+\\When the user clicks submit button all the files are read one by one and data is automatically stored in a database table named dwelldata and Project.
+
+ \begin{figure}[H]
+    \centerline{\includegraphics[width=\linewidth]{database_table_data2.jpg}}
+  \caption{Database : Table - dwelldata with various fields which contains all the header and data of radar after processing, it also saves the clean binary header+data of particular dwells in a varbinary column of table which will be used in PSP merger }
+  \label{fig:figure 18}
+\end{figure}  
+  
+   \begin{figure}[H]
+    \centerline{\includegraphics[width=0.8\linewidth]{PSPloggerform.jpg}}
+  \caption{Windows form version of PSP Logger}
+  \label{fig:figure 19}
+\end{figure}  
+
+ \begin{tcolorbox}[title = NOTE]
+The STATUS label in the application provides information about the process thread, it tells whether the process has started, is in execution or it has completed. The application also show messagebox in both types of PSP Logger application to describe the status of process thread.
+ \end{tcolorbox}
+  \subsubsection{PSP Merger}
+    \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{extractor2.jpg}}
+  \caption{Web Appliction : PSP Merger Graphical User Interface}
+  \label{fig:figure 20}
+\end{figure}  
+ \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{PSPmerger.jpg}}
+  \caption{Windows form version of PSP Logger}
+  \label{fig:figure 21}
+  \end{figure}
+ The Figure 20 shows the Graphical User Interface(GUI) of PSP Merger which takes all the information of the radar header fields and produce a merged binary files accourding to the inputs  in binary format. It produces files free from garbage value and are smaller in size than raw radar binary files.
+  The input field includes :
+  \begin{itemize} 
+  \item[] \textbf{File Name : } The name with which the files will be stored in binary format.
+  \item[] \textbf{Command Type : }Takes input, Command type to filter the results of database. 
+  \item[] \textbf{No Of Pulses : }Takes input, No Of Pulses to filter the results of database. 
+  \item[] \textbf{Dwell Type : }Takes input, Dwell type .   
+  \item[] \textbf{No Of Range Cells : }Takes input, No Of Range Cells.
+  \item[] \textbf{Azimuth Range : }Field to take the range of Azimuth for which the radar data is to be merged.
+  \item[] \textbf{Elevation Range : }Field to take the range of Elevation for which the radar data is to be merged.
+  \item[] \textbf{Dwell Count : }Field to take the range of Dwell Cunt for which the radar data is to be merged.
+  \end{itemize}
+  When the user clicks on submit button the query get executed in the back - end according to the inputs and fetch the data column of Table dwelldata which contains the header and data of each dwells and merges to produce the required clutter free binary file for further processing.
+  
+  \title{CHAPTER 8}
+\maketitle
+\section{ANALYSIS AND MATLAB PLOTS}
+Analysis is done by connecting the database by ODBC driver and importing the Table dwelldata in MATLAB cell structure.
+\\
+\\To Plot the various fields the cell array of the required column is converted into MATLAB array variable and the plots were made by MATLAB Programming.
+\subsection{DWELLCOUNT VS RANGE GRAPH}
+the dwellcount column   and range is stored in an array variable x and y and plots where made as shown in Figure:
+
+ \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{dwellcount-range(1,25067).jpg}}
+  \caption{Plot of dwellcount vs range graph of all the dwellcount from 274 to 25344}
+  \label{fig:figure 22}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph between dwellcount vs range shows a horizontal straight line which implies, for each dwellcount the range was fixed at 900 which further shows that the simulation was done at fixed range.
+  \end{tcolorbox}
+  
+  \subsection{DWELLCOUNT VS AZIMUTH GRAPH}
+  \noindent \textbf{Definition : }\\
+   \indent Azimuth $\phi$,$\gamma$ (antenna coordinates) Bearing angle of target relative to Radar system measured clockwise from the perpendicular to the antenna face 
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=0.4\linewidth]{azimuth.png}}
+  \caption{Azimuth is as shown in the figure}
+  \label{fig:figure 23}
+  \end{figure}
+  \textbf{Plot : }The dwellcount and azimuth column is stored in an array variable x and y and plots where made as shown in Figure:
+  
+  \subsubsection{Plot for dwellcount 274 to 25344}
+     \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{dwellcount-azimuth(1,25067).jpg}}
+  \caption{Plot of dwellcount vs Azimuth graph of all the dwellcount from 274 to 25344}
+  \label{fig:figure 23(a)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+The graph between dwellcount vs Azimuth shows that the radar was operated priodically between 0.7 to - 0.7 azimuth   .
+  \end{tcolorbox}
+  
+  \subsubsection{Plot for dwellcount 274 to 285}
+  \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{azimuth(1,10).jpg}}
+  \caption{Plot of dwellcount vs Azimuth graph of all the dwellcount from 274 to 25344}
+  \label{fig:figure 23(b)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs Azimuth of small interval from 274 to 285 shows sloppy straight curve, which implies that the radar radiates dwells in linear fashion covering all the azimuth angles of operation.
+  \end{tcolorbox}
+   
+   \subsubsection{Plot for dwellcount 4274 to 4295}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{azimuth(4000,4020).jpg}}
+  \caption{Plot of dwellcount vs Azimuth graph of all the dwellcount from 4274 to 4295}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs Azimuth from 4274 to 4295 dwellcout, also shows sloppy straight curve, which implies that the radar radiates dwells in linear fashion covering all the azimuth angles of operation.
+  \end{tcolorbox}
+  
+  
+   \subsubsection{Plot for dwellcount 10274 to 10325}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{azimuth(10000,10050).jpg}}
+  \caption{Plot of dwellcount vs Azimuth graph of all the dwellcount from 10274 to 10325}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs Azimuth from 10274 to 10325 dwellcout, shows a sudden change in a curve which implies that the radar has started radiating from the -0.7 azimuth.It shows the feature of QRSAM radar as it is different from traditional 360-degree rotating radar, due to its design structure it is capable of radiating dwells in any azimuth.
+  \end{tcolorbox}
+  
+   \subsubsection{Plot for dwellcount 20274 to 20375}
+   \begin{figure}[H]
+  \centerline{\includegraphics[width=\linewidth]{azimuth(20000,20100).jpg}}
+  \caption{Plot of dwellcount vs Azimuth graph of all the dwellcount from 20274 to 20375}
+  \label{fig:figure 23(c)}
+  \end{figure}
+  \begin{tcolorbox}[title =\textbf{Analysis}]
+  The graph  between dwellcount vs Azimuth from 20274 to 20375 dwellcout, shows many cycles of peaks and troughs which implies that the radar is continuously radiating dwells from azimuth 0.7 to - 0.7 in regular intervals
+  \end{tcolorbox}
+  
+  The overall analysis of dwellcount vs azimuth graph shows that the radar is sending 50 dwells for each cycle of sweep through 0.7 to - 0.7 azimuth and again starts from 0.7. 
+  
 \end{document}
