@@ -1,0 +1,77 @@
+\contentsline {section}{\bfseries {About DRDO}}{i}
+\contentsline {section}{\bfseries {Declaration}}{ii}
+\contentsline {section}{\bfseries {Acknowledgement}}{iii}
+\contentsline {section}{\bfseries {Abstract}}{iv}
+\contentsline {section}{\numberline {}INTRODUCTION}{1}
+\contentsline {subsection}{\numberline {1.1}INTRODUCTION}{1}
+\contentsline {subsection}{\numberline {1.2}PROBLEM STATEMENT}{1}
+\contentsline {subsection}{\numberline {1.3}OBJECTIVE}{1}
+\contentsline {subsection}{\numberline {1.4}SOLUTION}{1}
+\contentsline {subsection}{\numberline {1.5}LITERATURE SURVEY}{2}
+\contentsline {subsection}{\numberline {1.6}HARDWARE USED}{2}
+\contentsline {subsection}{\numberline {1.7}SOFTWARE USED}{2}
+\contentsline {subsection}{\numberline {1.8}TECHNOLOGY STACK}{3}
+\contentsline {subsubsection}{\numberline {1.8.1}Back-end Technology Stack}{3}
+\contentsline {subsubsection}{\numberline {1.8.2}Fron-end Technology Stack}{3}
+\contentsline {subsection}{\numberline {1.9}STEPS INVOLVED IN DEVELOPMENT}{4}
+\contentsline {subsection}{\numberline {1.10}CONSTRAINTS}{4}
+\contentsline {section}{\numberline {}ABOUT LRDE, DRDO}{6}
+\contentsline {subsection}{\numberline {2.1}ABOUT ORGANISATION}{6}
+\contentsline {subsection}{\numberline {2.2}CORE COMPETENCIES}{6}
+\contentsline {subsection}{\numberline {2.3}ACTIVITIES}{6}
+\contentsline {section}{\numberline {}ABOUT QRSAM}{8}
+\contentsline {subsection}{\numberline {3.1}QUICK REACTION SURFACE-TO-AIR MISSILE (QRSAM)}{8}
+\contentsline {subsubsection}{\numberline {3.1.1}Features :}{8}
+\contentsline {subsubsection}{\numberline {3.1.2}Radar System of QRSAM}{9}
+\contentsline {section}{\numberline {}ABOUT RADAR}{11}
+\contentsline {subsection}{\numberline {4.1}RADAR FUNDAMENTALS}{11}
+\contentsline {subsection}{\numberline {4.2}RADAR BLOCK DIAGRAM}{11}
+\contentsline {subsection}{\numberline {4.3}RADAR FREQUENCY BANDS}{12}
+\contentsline {subsection}{\numberline {4.4}RANGE PERFORMANCE OF RADARS}{15}
+\contentsline {subsection}{\numberline {4.5}HISTORY OF RADAR}{16}
+\contentsline {subsection}{\numberline {4.6} TYPES OF RADAR}{17}
+\contentsline {subsubsection}{\numberline {4.6.1}Frequency based radar types}{18}
+\contentsline {subsubsection}{\numberline {4.6.2}Waveform Based radar classification}{18}
+\contentsline {subsubsection}{\numberline {4.6.3}PRF Based radar classification}{18}
+\contentsline {subsubsection}{\numberline {4.6.4}Application based radar classification}{19}
+\contentsline {subsection}{\numberline {4.7}APPLICATIONS OF RADAR}{19}
+\contentsline {subsection}{\numberline {4.8}RADAR SUBSYSTEMS}{20}
+\contentsline {section}{\numberline {}ABOUT DATABASES}{22}
+\contentsline {subsection}{\numberline {5.1}INTRODUCTION}{22}
+\contentsline {subsubsection}{\numberline {5.1.1}\textbf {Hierarchical DBMS:}}{23}
+\contentsline {subsubsection}{\numberline {5.1.2}\textbf {Relational DBMS:}}{23}
+\contentsline {subsubsection}{\numberline {5.1.3}\textbf {Network DBMS: }}{24}
+\contentsline {subsubsection}{\numberline {5.1.4}\textbf {Flat files DBMS:}}{24}
+\contentsline {subsubsection}{\numberline {5.1.5}\textbf {Object Oriented DBMS:}}{24}
+\contentsline {subsection}{\numberline {5.2}ADVANTAGES OF DBMS:}{25}
+\contentsline {subsection}{\numberline {5.3}DISADVANTAGES OF DBMS}{25}
+\contentsline {section}{\numberline {}SOLUTION}{27}
+\contentsline {subsection}{\numberline {6.1}DATA RESOURCE}{27}
+\contentsline {subsubsection}{\numberline {6.1.1}TYPICAL RADAR DATA}{27}
+\contentsline {subsubsection}{\numberline {6.1.2}RADAR DATA USED IN THE PROJECT }{27}
+\contentsline {subsection}{\numberline {6.2}PROBLEMS TO BE SOLVED}{28}
+\contentsline {subsection}{\numberline {6.3}PROPOSED SOLUTION }{28}
+\contentsline {subsubsection}{\numberline {6.3.1}PSP DATA LOGGER APPLICATION}{28}
+\contentsline {subsubsection}{\numberline {6.3.2}PSP DATA MERGER APPLICATION}{30}
+\contentsline {subsubsection}{\numberline {6.3.3}ANALYSIS USING MATLAB}{32}
+\contentsline {section}{\numberline {}RESULT OBTAINED}{33}
+\contentsline {subsection}{\numberline {7.1}RESULTS}{33}
+\contentsline {subsubsection}{\numberline {7.1.1}PSP Logger}{33}
+\contentsline {subsubsection}{\numberline {7.1.2}PSP Merger}{35}
+\contentsline {section}{\numberline {}ANALYSIS AND MATLAB PLOTS}{37}
+\contentsline {subsection}{\numberline {8.1}DWELLCOUNT VS RANGE GRAPH}{37}
+\contentsline {subsection}{\numberline {8.2}DWELLCOUNT VS AZIMUTH GRAPH}{37}
+\contentsline {subsubsection}{\numberline {8.2.1}Plot for dwellcount 274 to 25344}{38}
+\contentsline {subsubsection}{\numberline {8.2.2}Plot for dwellcount 274 to 285}{39}
+\contentsline {subsubsection}{\numberline {8.2.3}Plot for dwellcount 4274 to 4295}{39}
+\contentsline {subsubsection}{\numberline {8.2.4}Plot for dwellcount 10274 to 10325}{40}
+\contentsline {subsubsection}{\numberline {8.2.5}Plot for dwellcount 20274 to 20375}{41}
+\contentsline {subsection}{\numberline {8.3}DWELLCOUNT VS ELEVATION GRAPH}{41}
+\contentsline {subsubsection}{\numberline {8.3.1}Plot for dwellcount 274 to 25344}{42}
+\contentsline {subsubsection}{\numberline {8.3.2}Plot for dwellcount 274 to 285}{42}
+\contentsline {subsubsection}{\numberline {8.3.3}Plot for dwellcount 4274 to 4295}{43}
+\contentsline {subsubsection}{\numberline {8.3.4}Plot for dwellcount 10274 to 10325}{43}
+\contentsline {subsubsection}{\numberline {8.3.5}Plot for dwellcount 20274 to 20375}{44}
+\contentsline {section}{\numberline {}CONCLUSION AND FUTURE WORK}{45}
+\contentsline {subsection}{\numberline {9.1}CONCLUSION}{45}
+\contentsline {subsection}{\numberline {9.2}FUTURE WORK}{45}
